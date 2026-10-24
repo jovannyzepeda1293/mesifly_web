@@ -16,7 +16,7 @@ nav a{text-decoration:none;color:var(--ink);font-weight:500}
 @media(max-width:700px){nav li:not(:last-child){display:none}
 header.site .btn{padding:.55rem 1rem;font-size:.95rem}
 .hero{padding:1.5rem 0 1rem}.hero .btn{display:block;margin-bottom:.7rem}
-section{padding:2rem 0}.hero img{max-width:240px}}
+section{padding:2rem 0}.hero img{max-width:100%}}
 :focus-visible{outline:3px solid var(--brand);outline-offset:2px}
 .hero{padding:3rem 0 2rem}.hero .wrap{display:grid;gap:2rem;align-items:center}
 @media(min-width:800px){.hero .wrap{grid-template-columns:1.1fr .9fr}}
@@ -24,7 +24,7 @@ section{padding:2rem 0}.hero img{max-width:240px}}
 h1{font-size:clamp(2rem,6vw,3.3rem);line-height:1.1;margin:.8rem 0}
 h2{font-size:clamp(1.5rem,4vw,2.3rem);line-height:1.2;margin:0 0 .6rem}h3{margin:.2rem 0}
 .lead{font-size:1.15rem;color:var(--muted)}
-.hero figure{margin:0;text-align:center}.hero img{max-width:300px;filter:drop-shadow(0 20px 30px rgba(0,0,0,.2))}
+.hero figure{margin:0;text-align:center}.hero img{max-width:520px;filter:drop-shadow(0 20px 30px rgba(0,0,0,.2))}
 section{padding:3rem 0}section.alt{background:var(--soft)}
 .grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:1.3rem}
