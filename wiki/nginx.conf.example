@@ -1,0 +1,13 @@
+# Copia wiki/site/ al servidor (ej. /var/www/mesifly-wiki/) y sirve /ayuda/ desde ahí.
+server {
+    server_name app.mesifly.com;
+    root /var/www/mesifly-wiki;          # contiene la carpeta ayuda/
+
+    location /ayuda/ {
+        try_files $uri $uri/ =404;
+        error_page 404 /ayuda/404.html;
+        gzip on; gzip_types text/css application/javascript application/json text/plain application/xml;
+    }
+    location /ayuda/assets/ { expires 30d; add_header Cache-Control "public"; }
+    # robots.txt de la raíz del dominio: añade ahí las reglas de ayuda/robots.txt y su línea Sitemap.
+}
