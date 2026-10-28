@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Genera el centro de ayuda estático (wiki/site/) desde wiki/docs/ayuda/*.md. Solo stdlib.
 
-Uso:  python3 wiki/build.py            -> wiki/site/ayuda/  (URLs bajo https://app.mesifly.com/ayuda/)
-      WIKI_PREFIX= python3 wiki/build.py  -> wiki/site/     (para probar en local con http.server)
+Uso:  python3 wiki/build.py            -> wiki/site/  (raíz de https://wiki.mesifly.com)
+      WIKI_PREFIX=/ayuda python3 wiki/build.py -> wiki/site/ayuda/ (si algún día va bajo una ruta)
 """
 import html, json, os, re, shutil, sys
 from pathlib import Path
@@ -10,8 +10,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 DOCS = ROOT / "docs" / "ayuda"
 IMG = ROOT.parent / "one" / "img"
-BASE = "https://app.mesifly.com"          # toda URL del sitio vive aquí
-PREFIX = os.environ.get("WIKI_PREFIX", "/ayuda")
+APP = "https://app.mesifly.com"      # la aplicación (botones «Abrir Mesifly», rutas ruta_app)
+SITE = "https://wiki.mesifly.com"     # esta wiki, en la raíz de su subdominio
+PREFIX = os.environ.get("WIKI_PREFIX", "")
 OUT = ROOT / "site" / PREFIX.strip("/")
 # Datos de _variables.md (si cambian allá, cámbialos aquí)
 PRICE, TRIAL = "5", "14"
@@ -216,7 +217,7 @@ def fix_links(md, doc, by_rel, absolute):
             die(f"{doc['rel']}: enlace fuera de docs: {m.group(1)}")
         if rel not in by_rel:
             die(f"{doc['rel']}: enlace roto: {m.group(1)}")
-        return f"]({(BASE if absolute else '')}{PREFIX}{by_rel[rel]['url']}{m.group(2) or ''})"
+        return f"]({(SITE if absolute else '')}{PREFIX}{by_rel[rel]['url']}{m.group(2) or ''})"
     return re.sub(r"\]\(([^)#\s]+\.md)(#[^)\s]*)?\)", sub, md)
 
 def fecha(s):
@@ -226,11 +227,11 @@ def fecha(s):
 def ld(objs):
     return "".join('<script type="application/ld+json">' + json.dumps(o, ensure_ascii=False).replace("</", "<\\/") + "</script>" for o in objs)
 
-ORG = {"@type": "Organization", "name": "Mesifly", "url": BASE + "/", "logo": f"{BASE}{PREFIX}/assets/icono.png"}
+ORG = {"@type": "Organization", "name": "Mesifly", "url": APP + "/", "logo": f"{SITE}{PREFIX}/assets/icono.png"}
 
 # ---------- plantillas ----------
 def shell(title, desc, url, body, graph, kind="article"):
-    canon = f"{BASE}{PREFIX}{url}"
+    canon = f"{SITE}{PREFIX}{url}"
     full_title = title if url == "/" else f"{title} | Ayuda Mesifly"
     return f"""<!doctype html>
 <html lang="es" class="no-js">
@@ -243,8 +244,8 @@ def shell(title, desc, url, body, graph, kind="article"):
 <link rel="icon" href="{PREFIX}/assets/icono.png" type="image/png">
 <meta property="og:type" content="{kind}"><meta property="og:locale" content="es_MX"><meta property="og:site_name" content="Ayuda Mesifly">
 <meta property="og:title" content="{esc(full_title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{canon}">
-<meta property="og:image" content="{BASE}{PREFIX}/assets/logo.png"><meta name="twitter:card" content="summary">
-<link rel="alternate" type="text/plain" href="{BASE}{PREFIX}/llms.txt" title="llms.txt">
+<meta property="og:image" content="{SITE}{PREFIX}/assets/logo.png"><meta name="twitter:card" content="summary">
+<link rel="alternate" type="text/plain" href="{SITE}{PREFIX}/llms.txt" title="llms.txt">
 <link rel="stylesheet" href="{PREFIX}/assets/wiki.css">
 <script>document.documentElement.className="js"</script>
 {ld(graph)}
@@ -255,11 +256,11 @@ def shell(title, desc, url, body, graph, kind="article"):
 <a class="logo" href="{PREFIX}/" aria-label="Centro de ayuda de Mesifly, inicio"><img src="{PREFIX}/assets/logo.png" width="351" height="96" alt="Mesifly"><span>Ayuda</span></a>
 <form class="search" role="search" action="{PREFIX}/" onsubmit="return false"><label class="sr" for="q">Buscar en la ayuda</label>
 <input id="q" type="search" placeholder="Busca: crear cuenta, Telegram, QR…" autocomplete="off" aria-controls="res" aria-expanded="false"><ul id="res" role="listbox" hidden></ul></form>
-<nav aria-label="Principal"><a href="{PREFIX}/preguntas-frecuentes/">Preguntas</a><a class="btn" href="{BASE}/">Abrir Mesifly</a></nav>
+<nav aria-label="Principal"><a href="{PREFIX}/preguntas-frecuentes/">Preguntas</a><a class="btn" href="{APP}/">Abrir Mesifly</a></nav>
 </div></header>
 {body}
 <footer class="site"><div class="wrap">
-<nav aria-label="Pie"><a href="{PREFIX}/preguntas-frecuentes/">Preguntas frecuentes</a><a href="{PREFIX}/glosario/">Glosario</a><a href="{PREFIX}/cambios/">Cambios de la ayuda</a><a href="{PREFIX}/llms.txt">llms.txt</a><a href="{BASE}/">app.mesifly.com</a></nav>
+<nav aria-label="Pie"><a href="{PREFIX}/preguntas-frecuentes/">Preguntas frecuentes</a><a href="{PREFIX}/glosario/">Glosario</a><a href="{PREFIX}/cambios/">Cambios de la ayuda</a><a href="{PREFIX}/llms.txt">llms.txt</a><a href="{APP}/">app.mesifly.com</a></nav>
 <p>© Mesifly · Menú digital y pedidos directos para restaurantes, sin comisión por pedido.</p></div></footer>
 <script src="{PREFIX}/assets/wiki.js" defer></script>
 </body></html>"""
@@ -272,7 +273,7 @@ def breadcrumbs(crumbs):
         "<li>" + (f'<span aria-current="page">{esc(n)}</span>' if k == last else f'<a href="{PREFIX}{u}">{esc(n)}</a>') + "</li>"
         for k, (n, u) in enumerate(allc))
     j = {"@type": "BreadcrumbList", "itemListElement": [
-        {"@type": "ListItem", "position": k + 1, "name": n, "item": f"{BASE}{PREFIX}{u}"} for k, (n, u) in enumerate(allc)]}
+        {"@type": "ListItem", "position": k + 1, "name": n, "item": f"{SITE}{PREFIX}{u}"} for k, (n, u) in enumerate(allc)]}
     return f'<nav class="crumbs" aria-label="Migas de pan"><ol>{items}</ol></nav>', j
 
 def sidebar(docs, current):
@@ -332,7 +333,7 @@ def main():
         cat_name = CATS[d["cat"]][0] if d["cat"] in CATS else "Consulta rápida"
         crumbs = ([(cat_name, f"/{d['cat']}/")] if d["cat"] in CATS else []) + [(m["titulo"], d["url"])]
         bc_html, bc_ld = breadcrumbs(crumbs)
-        canon = f"{BASE}{PREFIX}{d['url']}"
+        canon = f"{SITE}{PREFIX}{d['url']}"
         art = {"@type": "TechArticle", "headline": m["titulo"], "description": m["resumen"], "inLanguage": "es",
                "dateModified": m["actualizado"], "datePublished": m["actualizado"], "url": canon,
                "mainEntityOfPage": canon, "keywords": ", ".join(m.get("palabras_clave", [])),
@@ -346,7 +347,7 @@ def main():
             if ":" in ruta:
                 app_btn = f'<p class="route">Dirección en la app: <code>app.mesifly.com{esc(ruta.replace(":slug", "tu-negocio"))}</code></p>'
             else:
-                app_btn = f'<p><a class="btn" href="{BASE}{esc(ruta)}">Abrir en la app</a></p>'
+                app_btn = f'<p><a class="btn" href="{APP}{esc(ruta)}">Abrir en la app</a></p>'
         toc = ""
         if len(r["toc"]) > 1:
             toc = '<aside class="toc" aria-label="En esta página"><h2>En esta página</h2><ul>' + "".join(
@@ -379,7 +380,7 @@ def main():
         bc_html, bc_ld = breadcrumbs([(name, f"/{c}/")])
         cards = "".join(f'<li><a href="{PREFIX}{d["url"]}"><strong>{esc(d["meta"]["titulo"])}</strong><span>{esc(d["meta"]["resumen"])}</span></a></li>' for d in arts)
         item_list = {"@type": "ItemList", "itemListElement": [
-            {"@type": "ListItem", "position": k + 1, "url": f"{BASE}{PREFIX}{d['url']}", "name": d["meta"]["titulo"]} for k, d in enumerate(arts)]}
+            {"@type": "ListItem", "position": k + 1, "url": f"{SITE}{PREFIX}{d['url']}", "name": d["meta"]["titulo"]} for k, d in enumerate(arts)]}
         graph = [{"@context": "https://schema.org", **g} for g in
                  [{"@type": "CollectionPage", "name": name, "description": desc, "inLanguage": "es"}, bc_ld, item_list]]
         body = f"""<div class="wrap layout">{sidebar(docs, "")}<main id="main">{bc_html}
@@ -405,10 +406,10 @@ def main():
 <section class="wrap" id="temas" aria-labelledby="t"><h2 id="t">Todos los temas</h2><ul class="cards">{cards}</ul></section>
 <section class="band"><div class="wrap"><h2>Respuestas rápidas</h2><dl class="facts">{dl}</dl>
 <p><a class="btn" href="{PREFIX}/preguntas-frecuentes/">Ver todas las preguntas frecuentes</a></p></div></section></main>"""
-    graph = [{"@context": "https://schema.org", "@type": "WebSite", "name": "Ayuda Mesifly", "url": f"{BASE}{PREFIX}/", "inLanguage": "es",
-              "publisher": ORG, "potentialAction": {"@type": "SearchAction", "target": f"{BASE}{PREFIX}/?q={{search_term_string}}", "query-input": "required name=search_term_string"}},
+    graph = [{"@context": "https://schema.org", "@type": "WebSite", "name": "Ayuda Mesifly", "url": f"{SITE}{PREFIX}/", "inLanguage": "es",
+              "publisher": ORG, "potentialAction": {"@type": "SearchAction", "target": f"{SITE}{PREFIX}/?q={{search_term_string}}", "query-input": "required name=search_term_string"}},
              {"@context": "https://schema.org", **ORG, "description": "Menú digital y pedidos directos para restaurantes, sin comisión por pedido."},
-             {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Mesifly", "url": BASE + "/", "applicationCategory": "BusinessApplication",
+             {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Mesifly", "url": APP + "/", "applicationCategory": "BusinessApplication",
               "operatingSystem": "Web, PWA", "inLanguage": ["es", "en"],
               "offers": {"@type": "Offer", "price": PRICE, "priceCurrency": "USD", "description": f"Por restaurante (sucursal) al mes, {TRIAL} días de prueba gratis."}}]
     write("index.html", shell("Centro de ayuda de Mesifly", desc, "/", body, graph, kind="website"))
@@ -420,23 +421,23 @@ def main():
     # búsqueda, sitemap, robots, llms
     write("assets/search.json", json.dumps(search, ensure_ascii=False, separators=(",", ":")))
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(
-        f"<url><loc>{BASE}{PREFIX}{u}</loc><lastmod>{lm}</lastmod></url>\n" for u, lm in urls) + "</urlset>\n")
+        f"<url><loc>{SITE}{PREFIX}{u}</loc><lastmod>{lm}</lastmod></url>\n" for u, lm in urls) + "</urlset>\n")
     bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-User", "Claude-SearchBot", "PerplexityBot", "Google-Extended", "Applebot-Extended", "CCBot"]
-    write("robots.txt", "User-agent: *\nAllow: /\n\n" + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + f"Sitemap: {BASE}{PREFIX}/sitemap.xml\n")
+    write("robots.txt", "User-agent: *\nAllow: /\n\n" + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + f"Sitemap: {SITE}{PREFIX}/sitemap.xml\n")
 
     L = ["# Mesifly: centro de ayuda",
          f"> Guías paso a paso de Mesifly, menú digital propio y pedidos directos para restaurantes, sin comisión por pedido. ${PRICE} USD al mes por restaurante (sucursal), {TRIAL} días de prueba gratis. Los pedidos llegan por Telegram; el comensal no se registra ni descarga nada; el pago se arregla directo con el restaurante.", ""]
     for c, (name, _, _) in CATS.items():
         L.append(f"## {name}")
-        L += [f"- [{d['meta']['titulo']}]({BASE}{PREFIX}{d['url']}): {d['meta']['resumen']}" for d in docs if d["cat"] == c]
+        L += [f"- [{d['meta']['titulo']}]({SITE}{PREFIX}{d['url']}): {d['meta']['resumen']}" for d in docs if d["cat"] == c]
         L.append("")
     L.append("## Consulta rápida")
-    L += [f"- [{d['meta']['titulo']}]({BASE}{PREFIX}{d['url']}): {d['meta']['resumen']}" for d in docs if d["cat"] == "consulta-rapida"]
+    L += [f"- [{d['meta']['titulo']}]({SITE}{PREFIX}{d['url']}): {d['meta']['resumen']}" for d in docs if d["cat"] == "consulta-rapida"]
     write("llms.txt", "\n".join(L) + "\n")
     full = ["# Mesifly: centro de ayuda (texto completo)\n"]
     for d in docs:
         body = re.sub(r"^# .*\n", "", fix_links(d["body"], d, by_rel, True).strip() + "\n", count=1)
-        full.append(f"\n---\n\n# {d['meta']['titulo']}\nURL: {BASE}{PREFIX}{d['url']}\nActualizado: {d['meta']['actualizado']}\nResumen: {d['meta']['resumen']}\n{body}")
+        full.append(f"\n---\n\n# {d['meta']['titulo']}\nURL: {SITE}{PREFIX}{d['url']}\nActualizado: {d['meta']['actualizado']}\nResumen: {d['meta']['resumen']}\n{body}")
     write("llms-full.txt", "".join(full))
 
     # assets
@@ -449,10 +450,10 @@ def main():
     bad = set()
     for f in OUT.rglob("*.html"):
         for u in re.findall(r"https?://[^\s\"'<)]+", f.read_text(encoding="utf-8")):
-            if not re.match(r"https?://(app\.mesifly\.com|schema\.org|www\.sitemaps\.org)\b", u):
+            if not re.match(r"https?://(app\.mesifly\.com|wiki\.mesifly\.com|schema\.org|www\.sitemaps\.org)\b", u):
                 bad.add(u)
     if bad:
-        die(f"URLs fuera de {BASE}: {sorted(bad)}")
+        die(f"URLs fuera de {APP} y {SITE}: {sorted(bad)}")
     print(f"OK: {len(docs)} artículos, {len(urls)} páginas -> {OUT}")
 
 if __name__ == "__main__":

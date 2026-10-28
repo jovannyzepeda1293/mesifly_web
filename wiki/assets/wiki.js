@@ -6,9 +6,12 @@
   var base = document.querySelector('link[rel=stylesheet][href$="wiki.css"]').getAttribute("href").replace("wiki.css", "");
 
   function load() {
-    loading = loading || fetch(base + "search.json").then(function (r) { return r.json(); }).then(function (d) {
+    loading = loading || fetch(base + "search.json").then(function (r) {
+      if (!r.ok) throw new Error("search.json " + r.status + " en " + r.url); // nginx devolvió su página de error, no el JSON
+      return r.json();
+    }).then(function (d) {
       data = d.map(function (x) { x.n = [norm(x.t), norm(x.k), norm(x.r), norm(x.x)]; return x; });
-    });
+    }).catch(function (e) { console.error(e); data = []; });
     return loading;
   }
   function esc(s) { return s.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }

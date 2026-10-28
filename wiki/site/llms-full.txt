@@ -1,0 +1,991 @@
+# Mesifly: centro de ayuda (texto completo)
+
+---
+
+# El asistente de alta, paso a paso
+URL: https://wiki.mesifly.com/primeros-pasos/asistente-de-alta/
+Actualizado: 2026-10-27
+Resumen: Los pasos para dejar tu restaurante listo después de registrarte: datos, menú, horarios y suscripción.
+
+## Para quién es
+Para el **dueño** que acaba de crear su cuenta. El asistente tiene 4 pasos: **Datos**, **Menú**, **Horarios** y **Suscripción**.
+
+## Antes de empezar
+- Haber iniciado sesión.
+- Tener a la mano el nombre, la dirección y el teléfono de tu negocio.
+- Si quieres armar el menú con fotos: una o varias fotos claras de tu carta.
+
+## Pasos
+### Paso 1 — Datos del restaurante
+1. Escribe el **Nombre** de tu negocio. Si tienes varias sucursales, usa **Nombre de la sucursal (opcional)** para distinguirla.
+2. Llena la **Dirección** (calle y número, colonia, código postal, estado), el **Teléfono**, la **Zona horaria** y la **Moneda**.
+3. Pulsa **Continuar**.
+
+El enlace público de tu menú se genera con ese nombre (por ejemplo `dominio/mi-fonda`). Si el nombre ya existe, se le agrega un número para que sea único.
+
+### Paso 2 — Carga tu menú
+Puedes subir fotos de tu menú y dejar que la IA arme categorías y platillos, o saltar este paso. Detalle en [Subir fotos de tu menú](https://wiki.mesifly.com/menu/subir-fotos-del-menu/).
+- **Subir y continuar**: sube tus fotos.
+- **Omitir**: lo harás después desde **Menú**.
+
+### Paso 3 — Horarios
+Marca los días que descansas y define la hora de apertura y cierre de cada día. Pulsa **Continuar**. Puedes cambiarlos después. Ver [Horario de atención](https://wiki.mesifly.com/pedidos/horario-de-atencion/).
+
+### Paso 4 — Suscripción
+Verás «$5 USD por restaurante al mes. 14 días de prueba gratis.» Indica cuántos restaurantes darás de alta y pulsa **Activar**, o **Omitir** si prefieres hacerlo después. Detalle en [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/).
+
+## Qué verás
+Al terminar entras a tu panel (**Dashboard**). Tu menú público solo es visible para tus clientes cuando la suscripción está activa o en prueba.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| «Ya alcanzaste el límite de restaurantes de tu plan.» | Intentaste registrar otro restaurante sin tener espacio en tu plan | Sube tu plan en [Tu plan](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/) |
+| El asistente te regresa al inicio | No hay un restaurante en proceso de alta | Empieza de nuevo el paso 1 |
+| Quiero registrar otra sucursal | — | Pulsa **Registrar restaurante nuevo** (ver [Varios restaurantes](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/)) |
+
+## Relacionado
+- [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/)
+- [Datos, logo y color de tu restaurante](https://wiki.mesifly.com/mi-restaurante/configurar-restaurante/)
+
+---
+
+# Cómo creo mi cuenta
+URL: https://wiki.mesifly.com/primeros-pasos/crear-cuenta/
+Actualizado: 2026-10-27
+Resumen: Registrarte con correo y contraseña o con tu cuenta de Google, y confirmar tu correo.
+
+## Para quién es
+Para el **dueño** del restaurante que entra por primera vez.
+
+## Antes de empezar
+- Un correo electrónico al que tengas acceso (te llegará un mensaje de confirmación), o una cuenta de Google.
+- Tu teléfono con clave de país, por ejemplo `+5215512345678` (es opcional, pero conviene tenerlo).
+
+## Pasos: con correo y contraseña
+1. En la pantalla de inicio pulsa **Registrarse**.
+2. Llena los campos: **Nombre**, **Correo electrónico**, **Teléfono**, **Contraseña** y **Confirmar contraseña**.
+   - El teléfono va en formato internacional. Ejemplo: `+5215512345678`. Puedes elegir tu país en la banderita para que se complete la clave.
+   - La contraseña debe tener **de 8 a 16 caracteres** con **una mayúscula, una minúscula, un número y un símbolo**. Debajo del campo verás una lista que se va marcando conforme la cumples.
+3. Marca la casilla **Acepto los Términos y Condiciones y la Política de Privacidad**. Sin ella no puedes continuar.
+4. Pulsa **Registrarse**.
+5. Revisa tu correo y abre el mensaje de confirmación. Pulsa el enlace que trae.
+6. Ya puedes [iniciar sesión](https://wiki.mesifly.com/primeros-pasos/iniciar-sesion/) y empezar el [asistente de alta](https://wiki.mesifly.com/primeros-pasos/asistente-de-alta/).
+
+## Pasos: con Google
+1. En la pantalla de inicio pulsa **Acceder con Google**.
+2. Elige tu cuenta de Google y acepta los permisos.
+3. Entras directo, sin crear contraseña. Al continuar con Google aceptas los Términos y Condiciones y la Política de Privacidad.
+
+## Qué verás
+- Si te registraste con correo, un aviso de que se envió el mensaje de confirmación. **No podrás entrar hasta confirmarlo.**
+- Si usaste Google, pasas al asistente de alta para registrar tu restaurante.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| Un error en **Contraseña** | No cumple las reglas (8 a 16 caracteres, mayúscula, minúscula, número y símbolo) | Ajusta la contraseña hasta que todas las reglas de la lista queden marcadas |
+| «deben ser aceptados» en términos | No marcaste la casilla de Términos y Condiciones | Márcala y vuelve a pulsar **Registrarse** |
+| Error en **Teléfono** | Le falta el `+` y la clave de país | Escríbelo así: `+5215512345678` |
+| No llega el correo de confirmación | Está en spam, o escribiste mal el correo | Revisa spam. Si no está, en la pantalla de inicio de sesión pulsa **¿No ha recibido las instrucciones de confirmación?** |
+| Un aviso de demasiados intentos (error 429) | Se hicieron muchos registros seguidos desde tu conexión | Espera una hora e inténtalo de nuevo |
+
+## Relacionado
+- [Iniciar sesión y recuperar tu contraseña](https://wiki.mesifly.com/primeros-pasos/iniciar-sesion/)
+- [El asistente de alta paso a paso](https://wiki.mesifly.com/primeros-pasos/asistente-de-alta/)
+
+---
+
+# Cómo inicio sesión y recupero mi contraseña
+URL: https://wiki.mesifly.com/primeros-pasos/iniciar-sesion/
+Actualizado: 2026-10-27
+Resumen: Entrar con tu usuario o correo, con Google, y qué hacer si olvidaste la contraseña o no te llegó el correo de confirmación.
+
+## Para quién es
+Para el **dueño**. Los empleados entran por otra pantalla: ver [Cómo entra un empleado](https://wiki.mesifly.com/equipo/acceso-de-empleados/).
+
+## Antes de empezar
+- Haber [creado tu cuenta](https://wiki.mesifly.com/primeros-pasos/crear-cuenta/) y confirmado tu correo.
+
+## Pasos: iniciar sesión
+1. Abre la pantalla de inicio de sesión (**Iniciar sesión**).
+2. Escribe tu **Usuario o correo** y tu **Contraseña**.
+3. Si es tu equipo personal, marca **Recordarme** para no escribirlos cada vez.
+4. Pulsa **Iniciar sesión**. También puedes usar **Acceder con Google** si te registraste así.
+
+## Pasos: olvidé mi contraseña
+1. En la pantalla de inicio pulsa **¿Ha olvidado su contraseña?**.
+2. Escribe tu correo y pulsa **Enviar enlace**.
+3. Abre el correo y pulsa el enlace. Escribe tu contraseña nueva (8 a 16 caracteres, con mayúscula, minúscula, número y símbolo).
+4. Inicia sesión con la contraseña nueva.
+
+## Pasos: no me llegó el correo de confirmación
+1. En la pantalla de inicio pulsa **¿No ha recibido las instrucciones de confirmación?**.
+2. Escribe tu correo y envía de nuevo la solicitud.
+3. Revisa también la carpeta de spam.
+
+## Qué verás
+- Al entrar correctamente: «Has iniciado sesión correctamente.» y tu **dashboard**.
+- Si aún no has registrado un restaurante, te llevamos al [asistente de alta](https://wiki.mesifly.com/primeros-pasos/asistente-de-alta/). Si tienes más de uno, puedes cambiar de restaurante con **Cambiar de restaurante**.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| Usuario o contraseña incorrectos | Hay un error de captura | Revisa mayúsculas y minúsculas; si no recuerdas la contraseña, usa **¿Ha olvidado su contraseña?** |
+| Un mensaje de que debes confirmar tu correo | No abriste el enlace del correo de confirmación | Usa **¿No ha recibido las instrucciones de confirmación?** |
+| «Debes cambiar tu contraseña por seguridad.» | Tu cuenta exige cambiar la contraseña | Escribe una contraseña nueva y continúa |
+| Error 429 («demasiadas solicitudes») | Intentaste entrar muchas veces seguidas | Espera unos minutos y vuelve a intentarlo |
+
+## Relacionado
+- [Tu perfil y tu contraseña](https://wiki.mesifly.com/cuenta-y-plan/perfil-y-contrasena/)
+- [Cómo entra un empleado](https://wiki.mesifly.com/equipo/acceso-de-empleados/)
+
+---
+
+# Prueba gratis y suscripción
+URL: https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/
+Actualizado: 2026-10-27
+Resumen: Cuánto cuesta, cómo funcionan los 14 días gratis y cómo activar la suscripción.
+
+## Para quién es
+Para el **dueño**.
+
+## Antes de empezar
+- Una tarjeta de crédito o débito. El cobro lo procesa **Stripe**.
+
+## Cuánto cuesta
+- **$5 USD al mes por restaurante (sucursal).**
+- **14 días de prueba gratis** en la primera alta.
+- **Sin comisión por pedido.** Tus clientes no pagan nada a Mesifly.
+
+## Pasos
+1. En el último paso del asistente (**Activa tu suscripción**), contesta **¿Cuántos restaurantes vas a dar de alta?**.
+2. Pulsa **Activar**. Te llevamos a la página de pago de Stripe.
+3. Captura tu tarjeta y confirma. Al volver tu suscripción queda activa (o en prueba).
+4. Si quieres hacerlo más tarde, pulsa **Omitir**. Después puedes activarla en **Mi cuenta → Plan → Activar suscripción**.
+
+## Qué verás
+- Tu menú público funciona mientras la suscripción esté **activa o en periodo de prueba**.
+- Si todavía no la activas, tu menú se guarda pero **solo será visible al público cuando actives la suscripción**; tu cliente verá «Menú no disponible».
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| Tus clientes ven «Menú no disponible» | La suscripción no está activa o el pago falló | Entra a **Mi cuenta → Plan** y revisa o reactiva tu suscripción |
+| «Actualizando tu plan…» y no avanza | Se espera la confirmación de Stripe | No cierres la página; puede tardar unos segundos |
+| «Aún no tienes una suscripción activa.» | Omitiste el paso de suscripción | Pulsa **Activar suscripción** en **Mi cuenta** |
+
+## Relacionado
+- [Tu plan: cuántos menús tienes](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/)
+- [Menú no disponible o fuera de horario](https://wiki.mesifly.com/para-tus-clientes/menu-no-disponible/)
+
+---
+
+# Cómo creo, edito y elimino categorías
+URL: https://wiki.mesifly.com/menu/categorias/
+Actualizado: 2026-10-27
+Resumen: Crear categorías (Tacos, Bebidas…), cambiar su nombre y eliminarlas cuando estén vacías.
+
+## Para quién es
+Para el **dueño**. Las categorías agrupan tus platillos (por ejemplo Tacos, Bebidas, Postres).
+
+## Antes de empezar
+Nada especial. Entra a **Menú** en la barra de arriba.
+
+## Pasos: crear una categoría
+1. En **Menú** pulsa **Nueva categoría**. Se abre una ventana.
+2. Escribe el **Nombre**. El campo **Posición** es opcional: sirve para el orden, pero es más fácil [ordenar arrastrando](https://wiki.mesifly.com/menu/ordenar-arrastrando/).
+3. Pulsa **Crear Categoría** (el botón dirá **Guardando…** unos instantes).
+4. La ventana se cierra y la categoría aparece en la lista, sin recargar la página.
+
+## Pasos: editar el nombre
+1. En la tarjeta de la categoría pulsa **Editar**.
+2. Cambia el **Nombre** y pulsa **Actualizar Categoría**.
+
+## Pasos: eliminar una categoría
+1. Una categoría **solo se puede eliminar cuando no tiene platillos**. Mientras tenga alguno, el botón **Eliminar** no aparece.
+2. Para vaciarla, [mueve sus platillos](https://wiki.mesifly.com/menu/ordenar-arrastrando/) a otra categoría o [elimínalos](https://wiki.mesifly.com/menu/platillos/).
+3. Cuando esté vacía aparece **Eliminar**. Púlsalo.
+
+## Qué verás
+Avisos verdes arriba: «✓ Categoría creada exitosamente.», «✓ Categoría actualizada.» o «✓ Categoría eliminada.». Si algo falla, un aviso rojo «No se pudo guardar. Revisa los campos marcados.» y el error junto al campo.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| No aparece **Eliminar** en una categoría | Todavía tiene platillos | Muévelos o elimínalos primero |
+| «Mueve o elimina los platillos de la categoría antes de eliminarla.» | Se intentó eliminar una categoría con platillos | Igual que arriba |
+| El nombre marca error | Quedó en blanco | Escribe un nombre |
+
+## Relacionado
+- [Crear y editar platillos](https://wiki.mesifly.com/menu/platillos/)
+- [Ordenar con arrastrar y soltar](https://wiki.mesifly.com/menu/ordenar-arrastrando/)
+
+---
+
+# Cómo ordeno mis categorías y platillos arrastrando
+URL: https://wiki.mesifly.com/menu/ordenar-arrastrando/
+Actualizado: 2026-10-27
+Resumen: Cambiar el orden del menú con arrastrar y soltar, también en celular, y mover un platillo a otra categoría.
+
+## Para quién es
+Para el **dueño**. Funciona con el mouse y con el dedo en el celular.
+
+## Antes de empezar
+- Entra a **Menú**.
+- El arrastre se desactiva mientras tengas texto en el buscador (para no desordenar lo que no ves). Borra el texto para volver a ordenar.
+
+## Pasos: ordenar categorías
+1. Busca el icono de **seis puntos** a la izquierda del nombre de la categoría.
+2. Mantén presionado ese icono y arrastra la categoría hacia arriba o hacia abajo.
+3. Suéltala donde quieras. El orden se guarda **al soltar**.
+
+## Pasos: ordenar platillos
+1. Busca el icono de **seis puntos** a la izquierda del platillo.
+2. Arrástralo dentro de su categoría para cambiar su lugar.
+
+## Pasos: mover un platillo a otra categoría
+1. Arrastra el platillo desde su icono de seis puntos hasta la lista de otra categoría y suéltalo.
+2. También puedes soltarlo en una categoría vacía.
+
+## Qué verás
+El orden queda guardado y es el que verán tus clientes en el menú público. No necesitas pulsar ningún botón de guardar.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| No veo el icono de seis puntos | Hay texto escrito en el buscador | Borra el buscador |
+| El elemento regresó a su lugar | Falló el guardado (conexión) y se recargó el orden real | Inténtalo de nuevo |
+| No puedo eliminar una categoría después de mover | Aún le quedan platillos | Muévelos todos; cuando quede vacía aparece **Eliminar** |
+| En el celular la pantalla se mueve en vez del platillo | Se tocó fuera del icono de seis puntos | Arrastra desde el icono |
+
+## Relacionado
+- [Crear y editar categorías](https://wiki.mesifly.com/menu/categorias/)
+- [Crear y editar platillos](https://wiki.mesifly.com/menu/platillos/)
+
+---
+
+# Cómo creo, edito y elimino platillos
+URL: https://wiki.mesifly.com/menu/platillos/
+Actualizado: 2026-10-27
+Resumen: Agregar un platillo con nombre, precio, descripción y foto; cambiar su estado; eliminarlo con confirmación.
+
+## Para quién es
+Para el **dueño**.
+
+## Antes de empezar
+- Tener al menos una [categoría](https://wiki.mesifly.com/menu/categorias/).
+- Si quieres foto: una imagen **JPG, PNG o WebP de hasta 8 MB**.
+
+## Pasos: crear un platillo
+1. En **Menú** pulsa **Nuevo platillo**. Se abre una ventana.
+2. Llena los campos:
+   - **Nombre** (obligatorio).
+   - **Descripción** (opcional): ingredientes, tamaño, etc.
+   - **Categoría**: escribe para buscarla en **Buscar categoría…** y elígela.
+   - **Precio**. La **Moneda** se muestra bloqueada: es la de tu restaurante.
+   - **Estado**: **Activo** (se muestra a tus clientes), **Inactivo** (se oculta pero lo conservas) o **Archivado**.
+   - **Posición**: opcional. Es más fácil [ordenar arrastrando](https://wiki.mesifly.com/menu/ordenar-arrastrando/).
+   - **Imagen**: pulsa **Subir imagen**, elige la foto. Para cambiarla usa **Cambiar imagen**; para quitarla, la **×** pequeña sobre la foto (**Quitar imagen**).
+3. Pulsa **Crear Platillo**. El botón se bloquea y dice **Guardando…** hasta terminar.
+4. La ventana se cierra y el platillo aparece en su categoría.
+
+## Pasos: editar
+1. En el platillo pulsa **Editar**, cambia lo que necesites y pulsa **Actualizar Platillo**.
+2. Para **ocultarlo temporalmente** (por ejemplo, se acabó), cámbialo a **Inactivo**; vuelve a **Activo** cuando lo tengas.
+
+## Pasos: eliminar
+1. Pulsa **Eliminar** en el platillo.
+2. Aparece «**Eliminar platillo** — ¿Seguro que quieres eliminar «Nombre»? Esta acción no se puede deshacer.»
+3. Pulsa **Eliminar** para confirmar, o **Cancelar**.
+
+## Qué verás
+Avisos verdes: «✓ ¡Platillo agregado al menú!», «✓ Platillo actualizado.» o «✓ Platillo eliminado del menú.». La lista se actualiza sin recargar y conserva tu posición en la pantalla.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| «debe ser una imagen (JPG, PNG o WebP)» | El archivo es de otro tipo (por ejemplo PDF) | Sube una imagen JPG, PNG o WebP |
+| «no puede pesar más de 8 MB» | La foto es muy pesada | Reduce su tamaño o sube otra |
+| El botón se queda en **Guardando…** | La foto es grande o la conexión es lenta | Espera unos segundos; si falla verás un aviso rojo y podrás reintentar |
+| Mi cliente no ve el platillo | Está **Inactivo** o **Archivado**, o su categoría no existe | Ponlo en **Activo** |
+| Un platillo no se puede mover a una categoría de otro restaurante | Cada restaurante tiene sus propias categorías | Usa solo las categorías de ese restaurante |
+
+## Relacionado
+- [Ordenar con arrastrar y soltar](https://wiki.mesifly.com/menu/ordenar-arrastrando/)
+- [Cómo hace un pedido tu cliente](https://wiki.mesifly.com/para-tus-clientes/hacer-un-pedido/)
+
+---
+
+# Cómo subo fotos de mi menú para que la IA lo arme
+URL: https://wiki.mesifly.com/menu/subir-fotos-del-menu/
+Actualizado: 2026-10-27
+Resumen: Sube fotos de tu carta y la inteligencia artificial crea categorías, platillos y precios; luego tú ajustas lo que quieras.
+
+## Para quién es
+Para el **dueño**. Se puede hacer en el [asistente de alta](https://wiki.mesifly.com/primeros-pasos/asistente-de-alta/) o después, desde **Menú**.
+
+## Antes de empezar
+- Una o varias fotos de tu carta: derechas, bien iluminadas y con el texto legible. Si tu carta tiene varias hojas, toma una foto por hoja.
+- Esta opción aparece en **Menú** **solo mientras no tengas ninguna categoría ni platillo**. En cuanto exista uno, deja de mostrarse (desde ahí agregas todo a mano).
+
+## Pasos
+1. Entra a **Menú** (barra de arriba). Si tu menú está vacío, verás debajo del buscador el recuadro **¿Aún no tienes platillos?**.
+2. Pulsa **Agrega fotos de tu menú**. Puedes elegir varias imágenes o tomar las fotos con la cámara de tu celular.
+3. Revisa las miniaturas. Si te equivocaste, pulsa la **×** roja de una foto para quitarla.
+4. Pulsa **Subir fotos** (en el asistente de alta el botón se llama **Subir y continuar**).
+5. Espera en la pantalla **Creando tu menú**: verás una barra de avance con mensajes («Extrayendo categorías…», «Guardando platillos…»). Puede tardar unos segundos.
+6. Al terminar vuelves a **Menú** con tus categorías y platillos ya creados.
+
+## Qué verás
+Categorías y platillos con nombre, precio y descripción tomados de tus fotos. **Revísalos siempre**: la IA puede equivocarse en un precio o en un nombre. Corrige lo que haga falta con [Crear y editar platillos](https://wiki.mesifly.com/menu/platillos/). Las fotos de los platillos no se generan solas; agrégalas tú.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| «No pudimos procesar tu menú.» | La foto no se leyó bien o hubo un error al procesarla | Pulsa **Reintentar** con fotos más nítidas, o continúa y [agrega tu menú a mano](https://wiki.mesifly.com/menu/categorias/) |
+| No veo el recuadro de subir fotos | Ya tienes al menos una categoría o un platillo | Elimina primero lo que tengas (si quieres empezar de cero) o agrega los platillos manualmente |
+| Faltan platillos o precios | La foto estaba borrosa o cortada | Agrégalos manualmente o vuelve a subir mejores fotos (con un menú vacío) |
+
+## Relacionado
+- [Crear y editar categorías](https://wiki.mesifly.com/menu/categorias/)
+- [Crear y editar platillos](https://wiki.mesifly.com/menu/platillos/)
+
+---
+
+# Cómo busco en mi menú, veo la vista previa y copio el enlace
+URL: https://wiki.mesifly.com/menu/ver-y-compartir-el-menu/
+Actualizado: 2026-10-27
+Resumen: Buscar platillos o categorías, ver cómo lo verán tus clientes y copiar el enlace para compartirlo por WhatsApp, Instagram o QR.
+
+## Para quién es
+Para el **dueño**.
+
+## Antes de empezar
+- Tu suscripción debe estar activa o en prueba, o tus clientes verán «Menú no disponible». Ver [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/).
+
+## Pasos: copiar el enlace de tu menú
+1. Entra a **Menú**.
+2. Pulsa **Copiar enlace**. El botón dirá **¡Copiado!** un instante.
+3. Pega el enlace donde quieras: WhatsApp, Instagram, tu perfil de Google, un código QR, etc.
+
+El enlace tiene la forma `dominio/nombre-del-negocio` y es el que abre tu menú público. Cada restaurante (sucursal) tiene su propio enlace.
+
+## Pasos: ver cómo lo verá tu cliente
+1. En **Menú** pulsa **Ver menú**.
+2. Verás tu menú con el aviso «Vista previa: así verán tus clientes el menú.» Pulsa **Volver** para regresar.
+
+## Pasos: buscar en tu menú
+1. En **Menú**, escribe en **Buscar platillo o categoría…**.
+2. La lista se filtra al escribir, sin recargar la página.
+3. Borra el texto para ver todo otra vez. Con una búsqueda activa no se puede [ordenar arrastrando](https://wiki.mesifly.com/menu/ordenar-arrastrando/).
+
+## Qué verás
+El enlace copiado abre el menú con categorías, fotos y precios, con el nombre y logo de tu restaurante, el indicador **Abierto**/**Cerrado** y el buscador del cliente.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| El botón no copia en tu navegador | El navegador bloqueó el portapapeles | Prueba otro navegador o abre **Ver menú** y copia la dirección de la barra |
+| Tus clientes ven «Menú no disponible» | Suscripción inactiva o restaurante desactivado | Revisa [Menú no disponible](https://wiki.mesifly.com/para-tus-clientes/menu-no-disponible/) |
+| Quiero el enlace de mis empleados | Es otro enlace | Mira [Crear empleados](https://wiki.mesifly.com/equipo/crear-empleados/) |
+
+## Relacionado
+- [Cómo hace un pedido tu cliente](https://wiki.mesifly.com/para-tus-clientes/hacer-un-pedido/)
+- [Datos, logo y color de tu restaurante](https://wiki.mesifly.com/mi-restaurante/configurar-restaurante/)
+
+---
+
+# Cómo conecto Telegram para recibir avisos de pedidos
+URL: https://wiki.mesifly.com/pedidos/conectar-telegram/
+Actualizado: 2026-10-27
+Resumen: Vincular tu Telegram para que cada pedido nuevo (y avisos de pago) llegue a tu teléfono.
+
+## Para quién es
+Para el **dueño**.
+
+## Antes de empezar
+- Tener Telegram en tu teléfono (o Telegram Web en la computadora) con tu cuenta abierta.
+
+## Pasos: conectar
+1. Entra a **Restaurante** (barra de arriba). En la parte superior verás la tarjeta **Telegram**: «Conecta tu cuenta de Telegram para recibir los pedidos.»
+2. Pulsa **Conectar con Telegram**. Se abre Telegram en otra pestaña o aplicación.
+3. En el chat del bot de Mesifly pulsa **Iniciar** (Start).
+4. Regresa a Mesifly: la tarjeta cambia a «Conectado: los pedidos se enviarán a tu chat de Telegram.»
+
+## Pasos: desconectar
+1. En la misma tarjeta pulsa **Desconectar**.
+2. Verás «Telegram desconectado.» y dejarás de recibir avisos en ese chat.
+
+## Qué verás
+Cada pedido nuevo te llega como mensaje con: nombre del restaurante, cliente, teléfono, dirección, productos, subtotal, envío, propina, total y notas. También avisan los pagos de la suscripción: pago exitoso, pago fallido o suscripción cancelada.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| La tarjeta sigue en «Conecta tu cuenta…» | No pulsaste **Iniciar** en el chat del bot | Vuelve a pulsar **Conectar con Telegram** y pulsa **Iniciar** |
+| No abre Telegram | Tu navegador bloqueó la ventana nueva | Permite ventanas emergentes para el sitio e intenta de nuevo |
+| Cada sucursal necesita su Telegram | Cada restaurante tiene su propia conexión | Haz la conexión dentro de cada restaurante |
+
+## Relacionado
+- [Recibir y atender pedidos](https://wiki.mesifly.com/pedidos/recibir-y-atender-pedidos/)
+
+---
+
+# Cómo configuro mi horario de atención
+URL: https://wiki.mesifly.com/pedidos/horario-de-atencion/
+Actualizado: 2026-10-27
+Resumen: Definir los días que descansas y la hora de apertura y cierre, para no recibir pedidos fuera de horario.
+
+## Para quién es
+Para el **dueño**.
+
+## Antes de empezar
+Nada especial. También lo defines en el [asistente de alta](https://wiki.mesifly.com/primeros-pasos/asistente-de-alta/) (paso **Horarios**).
+
+## Pasos
+1. Entra a **Restaurante** (barra de arriba) y baja a **Horario de atención**.
+2. Para cada día, define la **Hora de apertura** y la **Hora de cierre**.
+3. Si un día no abres, marca **Descansa**.
+4. Para repetir el mismo horario en toda la semana, escribe el de un día y pulsa **Aplicar a todos**.
+5. Pulsa **Guardar** al final de la página.
+
+## Qué verás
+- Tu menú muestra **Abierto** o **Cerrado** según el horario y la **zona horaria** de tu restaurante.
+- Si un cliente intenta pedir fuera de horario, ve «Fuera de horario de atención.» y no se genera el pedido.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| «debe ser posterior a la hora de apertura» | La hora de cierre es menor o igual a la de apertura | Corrige las horas |
+| El menú aparece **Cerrado** cuando estás abierto | La **Zona horaria** del restaurante no es la correcta | Cámbiala en **Restaurante** |
+
+## Relacionado
+- [Por qué un cliente ve «Menú no disponible» o «Fuera de horario»](https://wiki.mesifly.com/para-tus-clientes/menu-no-disponible/)
+- [Datos, logo y color de tu restaurante](https://wiki.mesifly.com/mi-restaurante/configurar-restaurante/)
+
+---
+
+# Cómo recibo y atiendo los pedidos
+URL: https://wiki.mesifly.com/pedidos/recibir-y-atender-pedidos/
+Actualizado: 2026-10-27
+Resumen: Ver los pedidos nuevos en vivo, abrir el detalle y marcarlos como atendidos.
+
+## Para quién es
+Para el **dueño** y los **empleados**.
+
+## Antes de empezar
+- Tu menú debe estar visible (suscripción activa o en prueba) y dentro de [horario de atención](https://wiki.mesifly.com/pedidos/horario-de-atencion/).
+- Para recibir avisos en el teléfono, [conecta Telegram](https://wiki.mesifly.com/pedidos/conectar-telegram/).
+
+## Pasos
+1. Entra a **Pedidos** (barra de arriba). Si estás en el **Dashboard**, también hay un botón **Pedidos**.
+2. Verás dos pestañas: **Pendientes** (por atender) y **Atendidos** (historial).
+3. Cuando entra un pedido nuevo mientras tienes la página abierta, aparece un aviso **¡Nuevo pedido!** con el nombre del cliente y el total. Pulsa **Ver pedido** para ir a él.
+4. Pulsa **Ver detalle** en un pedido para abrir **Detalle del pedido**: **Cliente**, **Teléfono**, **Dirección**, **Notas**, **Comentarios de productos**, **Productos**, **Subtotal**, **Envío**, **Propina** y **Total**, además de cuándo fue **Recibido**.
+5. Cuando lo hayas entregado o resuelto, pulsa **Marcar como atendido**.
+6. Pulsa **Cerrar** para salir del detalle.
+
+## Qué verás
+- «Pedido marcado como atendido.» y el pedido pasa de **Pendientes** a **Atendidos**, donde queda con la hora en que se atendió.
+- La lista carga más pedidos al llegar al final («Cargando más pedidos…»).
+- Si no hay nada: «No hay pedidos.»
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| No me llegan pedidos | El menú no está visible, estás fuera de horario o el cliente no confirmó el pedido | Revisa [Menú no disponible](https://wiki.mesifly.com/para-tus-clientes/menu-no-disponible/) |
+| No me llega el aviso en el teléfono | Telegram no está conectado | [Conéctalo](https://wiki.mesifly.com/pedidos/conectar-telegram/) |
+| No veo el aviso «¡Nuevo pedido!» | La página estaba cerrada | Abre **Pedidos**: ahí aparecen todos los pendientes |
+| El pago | La plataforma no cobra al cliente | El pago lo acuerdas directamente con tu cliente (efectivo o transferencia) |
+
+## Relacionado
+- [Conectar Telegram para recibir avisos](https://wiki.mesifly.com/pedidos/conectar-telegram/)
+- [El dashboard](https://wiki.mesifly.com/consultar-informacion/dashboard/)
+
+---
+
+# Cómo cambio los datos, el logo y el color de mi restaurante
+URL: https://wiki.mesifly.com/mi-restaurante/configurar-restaurante/
+Actualizado: 2026-10-27
+Resumen: Editar nombre, dirección, teléfono, zona horaria, tema de color y logo que ven tus clientes.
+
+## Para quién es
+Para el **dueño**.
+
+## Antes de empezar
+Si quieres logo: una imagen de tu negocio (cuadrada o apaisada se ve bien).
+
+## Pasos
+1. Entra a **Restaurante** (barra de arriba). Verás **Configuración del restaurante**.
+2. Edita los datos que necesites: **Nombre**, **Dirección**, **Teléfono** (formato internacional, ejemplo `+5215512345678`) y **Zona horaria**.
+3. Elige un **Tema** (ver abajo).
+4. En **Logo** pulsa **Subir logo** (o **Cambiar logo**). Para quitarlo, usa la **×** sobre la imagen.
+5. Ajusta el [horario de atención](https://wiki.mesifly.com/pedidos/horario-de-atencion/) si hace falta.
+6. Pulsa **Guardar**.
+
+## Temas de color disponibles
+**Clásico**, **Nocturno**, **Océano**, **Bosque**, **Atardecer**, **Realeza**, **Rosa**, **Monocromo**, **Cítrico** y **Pastel**. El tema cambia los colores de tu menú público y de tu panel.
+
+## Qué verás
+«Restaurante actualizado.» Tu menú público muestra el logo, el nombre, la dirección y los colores nuevos. Puedes comprobarlo con **Ver menú** en [Menú](https://wiki.mesifly.com/menu/ver-y-compartir-el-menu/).
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| El logo no cambia en tu cliente | El navegador guardó la imagen anterior | Recarga la página del menú |
+| Error en **Teléfono** | Le falta el `+` y la clave de país | Escribe `+521...` completo |
+| Quiero cambiar el enlace de mi menú | El enlace se genera al dar de alta el restaurante | [POR CONFIRMAR: no hay opción para editarlo en pantalla] |
+
+## Relacionado
+- [Conectar Telegram](https://wiki.mesifly.com/pedidos/conectar-telegram/)
+- [Varios restaurantes](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/)
+
+---
+
+# Cómo manejo varios restaurantes (sucursales)
+URL: https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/
+Actualizado: 2026-10-27
+Resumen: Registrar otra sucursal, cambiar entre restaurantes, y activarlos, desactivarlos o eliminarlos.
+
+## Para quién es
+Para el **dueño**. Cada restaurante tiene su propio menú, enlace, empleados, horarios y Telegram, y cuenta como un menú de tu plan.
+
+## Antes de empezar
+- Tener espacio en tu [plan](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/): cada menú cuesta $5 USD al mes.
+
+## Pasos: registrar otro restaurante
+1. Entra a **Restaurantes** (barra de arriba) y pulsa **Registrar restaurante nuevo**.
+2. Completa el [asistente de alta](https://wiki.mesifly.com/primeros-pasos/asistente-de-alta/). Usa **Nombre de la sucursal (opcional)** para distinguirlo.
+
+## Pasos: cambiar entre restaurantes
+1. Si tienes más de uno, en la barra aparece **Cambiar de restaurante**.
+2. Elige el restaurante con el que quieres trabajar.
+
+## Pasos: activar, desactivar o eliminar
+1. En **Restaurantes**, junto a cada negocio verás **Activar** o **Desactivar**, y **Eliminar**.
+2. **Desactivar**: «Al desactivar este negocio, su menú dejará de ser visible para los clientes y no podrán realizar pedidos. Podrás reactivarlo en cualquier momento.» Confirma con **Sí, desactivar**.
+3. **Eliminar**: borra **para siempre** menús, pedidos, ventas, empleados y configuraciones. Confirma con **Sí, eliminar negocio**. No se puede deshacer.
+
+## Qué verás
+Avisos: «Restaurante activado.», «Restaurante desactivado.» o «Restaurante eliminado.». Un restaurante desactivado aparece como **Inactivo**.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| «Ya alcanzaste el límite de restaurantes de tu plan.» | Tu plan no tiene más menús | Aumenta tu plan: «Actualiza tu plan para agregar más restaurantes.» |
+| Mis clientes ven «Menú no disponible» | El restaurante está **Inactivo** | Pulsa **Activar** |
+| No me deja bajar el plan | Tienes más restaurantes activos que menús en el plan | Desactiva o elimina restaurantes primero |
+
+## Relacionado
+- [Tu plan: cuántos menús tienes](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/)
+- [Resumen de ventas](https://wiki.mesifly.com/consultar-informacion/resumen-de-ventas/)
+
+---
+
+# Cómo entra un empleado y qué puede hacer
+URL: https://wiki.mesifly.com/equipo/acceso-de-empleados/
+Actualizado: 2026-10-27
+Resumen: Entrar con usuario y contraseña desde el enlace del restaurante, y las pantallas a las que tiene acceso.
+
+## Para quién es
+Para el **empleado** y para el dueño que quiere saber qué ve su equipo.
+
+## Antes de empezar
+El dueño debe haberte [creado como empleado](https://wiki.mesifly.com/equipo/crear-empleados/) y compartido el enlace de acceso, junto con tu usuario y contraseña.
+
+## Pasos
+1. Abre el enlace que te dio el dueño (**Inicio de sesión de empleados**).
+2. Escribe tu **Usuario** y tu **Contraseña**.
+3. Pulsa **Entrar**.
+
+## Qué puede hacer un empleado
+- Ver el **Dashboard** del restaurante.
+- Ver y atender **Pedidos** (**Marcar como atendido**).
+- Ver y editar su propio perfil y contraseña en **Mi cuenta**.
+
+## Qué no puede hacer
+No ve **Menú**, **Empleados**, **Restaurante** ni **Restaurantes**: no puede cambiar el menú, la configuración, el plan ni crear usuarios. Eso es del dueño.
+
+## Qué verás
+«Sesión iniciada.» y el panel del restaurante.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| «Usuario o contraseña incorrectos.» | Error de captura o el dueño cambió tus datos | Revisa los datos; si no entras, pídele al dueño que los restablezca |
+| No encuentro el enlace | Se perdió el mensaje | El dueño lo vuelve a copiar en **Empleados → Copiar enlace de inicio de sesión** |
+| Quiero cambiar un precio | Los empleados no editan el menú | Pídeselo al dueño |
+
+## Relacionado
+- [Cómo recibo y atiendo los pedidos](https://wiki.mesifly.com/pedidos/recibir-y-atender-pedidos/)
+
+---
+
+# Cómo creo empleados
+URL: https://wiki.mesifly.com/equipo/crear-empleados/
+Actualizado: 2026-10-27
+Resumen: Dar acceso a tu equipo con usuario y contraseña, y compartirles el enlace para entrar.
+
+## Para quién es
+Para el **dueño**. Los empleados atienden pedidos sin tocar la configuración del negocio.
+
+## Antes de empezar
+Define para cada empleado un **usuario** (sin espacios; letras, números, punto, guion y guion bajo) y una **contraseña** segura (8 a 16 caracteres con mayúscula, minúscula, número y símbolo).
+
+## Pasos: crear
+1. Entra a **Empleados** (barra de arriba) y pulsa **Nuevo empleado**.
+2. Llena **Usuario**, **Contraseña** y **Confirmar contraseña**.
+3. Pulsa **Crear empleado**.
+
+## Pasos: compartir el enlace de acceso
+1. En **Empleados** pulsa **Copiar enlace de inicio de sesión** (dirá **¡Copiado!**).
+2. Envía ese enlace a tu empleado junto con su usuario y contraseña. Verá «Inicio de sesión de empleados».
+
+## Pasos: editar o eliminar
+1. **Editar**: cambia el usuario o la contraseña. Si dejas la contraseña en blanco se conserva la actual. Pulsa **Guardar cambios**.
+2. **Eliminar**: confirma «¿Seguro que deseas eliminar este empleado? Esta acción no se puede deshacer.» con **Sí, eliminar**.
+
+## Qué verás
+«Empleado creado.», «Empleado actualizado.» o «Empleado eliminado.». Si aún no tienes empleados verás «Sin empleados.».
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| Error en **Usuario** | Tiene espacios o símbolos no permitidos, o ya existe | Usa solo letras, números, `.`, `-` y `_`, y que no se repita |
+| Error en la contraseña | No cumple las reglas | Revisa la lista de requisitos bajo el campo |
+| Mi empleado olvidó su contraseña | Los empleados no usan correo | Edítalo y asígnale una contraseña nueva |
+
+## Relacionado
+- [Cómo entra un empleado y qué puede hacer](https://wiki.mesifly.com/equipo/acceso-de-empleados/)
+
+---
+
+# Cómo consulto mis ventas y mis productos más pedidos
+URL: https://wiki.mesifly.com/consultar-informacion/dashboard/
+Actualizado: 2026-10-27
+Resumen: Ver cuántos pedidos y productos vendiste y cuáles se piden más, filtrando por fechas.
+
+## Para quién es
+Para el **dueño** y los **empleados**.
+
+## Antes de empezar
+Nada especial. Es la pantalla a la que entras al iniciar sesión.
+
+## Pasos
+1. Entra a **Dashboard** (barra de arriba).
+2. Por omisión ves **el día de hoy**. Cambia las dos fechas (desde y hasta) para consultar otro periodo. Se actualiza solo al elegir la fecha, sin recargar la página.
+3. Lee los resultados:
+   - **Pedidos**: cuántos pedidos hubo.
+   - **Productos**: cuántas piezas se pidieron.
+   - **Total (informativo)**: suma de los pedidos.
+   - **Productos más pedidos**: lista de platillos con la cantidad vendida.
+
+## Qué verás
+Tarjetas con los números del periodo y la lista de más pedidos. El **Total** es informativo: la plataforma no cobra al cliente, por lo que refleja lo que se acordó con él.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| Todo en cero | No hubo pedidos en esas fechas | Amplía el rango de fechas |
+| No coincide con mi caja | Se cuentan pedidos hechos desde el menú, no ventas en mostrador | Compáralos solo con pedidos de la plataforma |
+| Tengo varios restaurantes | Cada dashboard es de un restaurante | Mira el [resumen de todos](https://wiki.mesifly.com/consultar-informacion/resumen-de-ventas/) |
+
+## Relacionado
+- [Resumen de ventas de todos tus restaurantes](https://wiki.mesifly.com/consultar-informacion/resumen-de-ventas/)
+
+---
+
+# Cómo veo el resumen de ventas de todos mis restaurantes
+URL: https://wiki.mesifly.com/consultar-informacion/resumen-de-ventas/
+Actualizado: 2026-10-27
+Resumen: Comparar pedidos, productos y ventas de cada sucursal en un periodo.
+
+## Para quién es
+Para el **dueño**.
+
+## Antes de empezar
+Nada especial. Es más útil si tienes varias sucursales.
+
+## Pasos
+1. Entra a **Restaurantes** (barra de arriba).
+2. En **Resumen de ventas** verás **Pedidos**, **Productos** y **Ventas totales** de todos tus negocios.
+3. Cambia las fechas y pulsa **Filtrar** para ver otro periodo.
+4. En **Ventas por restaurante** consulta cada sucursal. Pulsa **Ver dashboard** para abrir el detalle de una.
+
+## Qué verás
+Los totales juntos y el desglose por sucursal. Si una sucursal no tuvo movimiento: «Sin pedidos.».
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| Un restaurante aparece como **Inactivo** | Lo desactivaste | Pulsa **Activar** si lo quieres de vuelta |
+| No veo la sección | Es solo para el dueño | Entra con la cuenta del dueño |
+
+## Relacionado
+- [El dashboard](https://wiki.mesifly.com/consultar-informacion/dashboard/)
+- [Varios restaurantes](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/)
+
+---
+
+# Cómo elimino mi cuenta
+URL: https://wiki.mesifly.com/cuenta-y-plan/eliminar-cuenta/
+Actualizado: 2026-10-27
+Resumen: Qué pasa al eliminar tu cuenta y cómo hacerlo; también cancela tu suscripción.
+
+## Para quién es
+Para el **dueño** que ya no usará Mesifly. **No se puede deshacer.**
+
+## Antes de empezar
+- Si solo quieres pausar un negocio, mejor [desactívalo](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/): se puede reactivar.
+
+## Pasos
+1. Entra a **Mi cuenta** y baja a **Zona de peligro**.
+2. Pulsa **Eliminar cuenta**.
+3. Lee «¿Seguro que deseas eliminar tu cuenta? Esta acción no se puede deshacer.» y pulsa **Sí, eliminar** (o **Cancelar**).
+
+## Qué pasa
+- Tu suscripción se cancela.
+- Tus restaurantes se desactivan: tus clientes dejan de ver el menú.
+- Tus datos personales se anonimizan y ya no puedes iniciar sesión.
+
+## Qué verás
+«Cuenta eliminada.»
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| Me arrepentí | La eliminación no se revierte | Crea una cuenta nueva |
+| Solo quiero bajar el costo | No necesitas eliminar la cuenta | [Reduce tu plan](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/) |
+
+## Relacionado
+- [Tu plan](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/)
+
+---
+
+# Cómo cambio mi perfil y mi contraseña
+URL: https://wiki.mesifly.com/cuenta-y-plan/perfil-y-contrasena/
+Actualizado: 2026-10-27
+Resumen: Actualizar tu nombre y teléfono, y cambiar tu contraseña desde Mi cuenta.
+
+## Para quién es
+Para el **dueño** y los **empleados**.
+
+## Antes de empezar
+Si cambias la contraseña, ten a la mano la actual.
+
+## Pasos: actualizar tu perfil
+1. Pulsa **Mi cuenta** (en el menú de tu nombre, arriba).
+2. En **Perfil** edita tu **Nombre** y tu **Teléfono** (formato internacional, ejemplo `+5215512345678`).
+3. Pulsa **Guardar**.
+
+## Pasos: cambiar tu contraseña
+1. En **Mi cuenta** baja a **Contraseña** y pulsa **Cambiar contraseña**.
+2. Escribe **Contraseña actual**, **Nueva contraseña** y **Confirmar nueva contraseña**. La nueva debe tener 8 a 16 caracteres con una mayúscula, una minúscula, un número y un símbolo; la lista bajo el campo se va marcando.
+3. Pulsa **Actualizar contraseña**. El ojito junto al campo muestra u oculta lo que escribes.
+
+## Qué verás
+«Perfil actualizado.» o «Contraseña actualizada.».
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| Error en **Contraseña actual** | No coincide con la que tienes | Revísala; si no la recuerdas, cierra sesión y usa [¿Ha olvidado su contraseña?](https://wiki.mesifly.com/primeros-pasos/iniciar-sesion/) |
+| Error en la nueva | No cumple las reglas | Revisa la lista de requisitos |
+| Entré con Google y no tengo contraseña | Tu acceso es con Google | Sigue entrando con **Acceder con Google** |
+
+## Relacionado
+- [Iniciar sesión y recuperar tu contraseña](https://wiki.mesifly.com/primeros-pasos/iniciar-sesion/)
+
+---
+
+# Cómo cambio mi plan (cuántos menús tengo)
+URL: https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/
+Actualizado: 2026-10-27
+Resumen: Ver cuánto pagas, aumentar o reducir el número de menús y activar tu suscripción.
+
+## Para quién es
+Para el **dueño**. Cada menú es un restaurante (sucursal) y cuesta **$5 USD al mes**.
+
+## Antes de empezar
+Tener una suscripción activa o en prueba. Si no la tienes, verás «Aún no tienes una suscripción activa.» y el botón **Activar suscripción**.
+
+## Pasos
+1. Entra a **Mi cuenta** y busca la sección **Plan**.
+2. Verás **Costo mensual**, y «Tu plan actual incluye N menús.»
+3. En **Número de menús** elige cuántos quieres. Puedes ir **entre tus menús activos y un máximo de 30**.
+4. Pulsa **Actualizar plan**. Al aumentar, se ajusta el cargo en Stripe.
+5. Espera en «Actualizando tu plan…» (no cierres la página): se espera la confirmación de Stripe y puede tardar unos segundos.
+
+## Qué verás
+«Plan actualizado.» y el nuevo costo mensual.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| «No puedes reducir tu plan por debajo de tus menús activos.» | Tienes más restaurantes activos que los menús que pides | [Desactiva o elimina](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/) restaurantes primero |
+| «No tienes una suscripción activa.» | No hay suscripción | Pulsa **Activar suscripción** |
+| Quiero cancelar | Se cancela al eliminar la cuenta | Ver [Eliminar tu cuenta](https://wiki.mesifly.com/cuenta-y-plan/eliminar-cuenta/) |
+
+## Relacionado
+- [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/)
+
+---
+
+# Cómo hace un pedido tu cliente
+URL: https://wiki.mesifly.com/para-tus-clientes/hacer-un-pedido/
+Actualizado: 2026-10-27
+Resumen: El recorrido del comensal: abrir el enlace, elegir platillos, dejar sus datos y confirmar. Sin registro ni app.
+
+Esta guía puedes compartirla con tus clientes si te preguntan cómo pedir.
+
+## Para quién es
+Para el **cliente** (comensal) que abre el enlace del menú. **No necesita registrarse ni descargar nada.**
+
+## Antes de empezar
+Tener el enlace del menú del restaurante (por WhatsApp, Instagram, código QR, etc.).
+
+## Pasos
+1. Abre el enlace. Verás el menú con categorías, fotos y precios, y si el negocio está **Abierto** o **Cerrado**.
+2. Busca con **Buscar por platillo o categoría…**, o recorre las **Categorías**.
+3. Toca un platillo para ver su foto y detalles, y pulsa **Agregar**. Ajusta la cantidad. Verás «✓ ¡Producto agregado a tu orden!».
+4. Cuando termines, pulsa **Ver pedido** (o **Hacer pedido**). Revisa **Tu pedido** y, si quieres, escribe **Notas para la cocina** (por ejemplo «sin cebolla, salsa aparte»).
+5. En **Confirmar pedido** llena los **Datos de entrega**: **Nombre de quien recibe**, **Teléfono**, **Dirección** y, opcionalmente, **Notas** (instrucciones de entrega, alergias).
+6. Revisa **Subtotal**, **Envío** y **Propina** (si aplican) y el **Total**.
+7. Pulsa **Confirmar pedido**.
+
+## Qué verás
+«Pedido enviado al restaurante.» y la página **Pedido confirmado** con el resumen. El restaurante recibe el pedido al instante en su panel y en Telegram. **El pago se acuerda directamente con el restaurante** (por ejemplo, efectivo o transferencia al recibir): la plataforma no cobra al cliente.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| «Fuera de horario de atención.» | El restaurante está cerrado | Intenta dentro del horario |
+| «Menú no disponible» | El restaurante no tiene el menú activo | Contacta al restaurante |
+| «Ese producto ya no está disponible.» | El restaurante lo desactivó | Elige otro platillo |
+| «Tu orden está vacía.» | No hay productos agregados | Agrega al menos uno |
+
+## Relacionado
+- [Por qué un cliente ve «Menú no disponible» o «Fuera de horario»](https://wiki.mesifly.com/para-tus-clientes/menu-no-disponible/)
+- [Cómo recibo y atiendo los pedidos](https://wiki.mesifly.com/pedidos/recibir-y-atender-pedidos/)
+
+---
+
+# Por qué un cliente ve «Menú no disponible» o «Fuera de horario»
+URL: https://wiki.mesifly.com/para-tus-clientes/menu-no-disponible/
+Actualizado: 2026-10-27
+Resumen: Las razones por las que tu menú no se muestra o no recibe pedidos, y cómo resolverlo.
+
+## Para quién es
+Para el **dueño** cuando sus clientes no pueden ver el menú o pedir.
+
+## Antes de empezar
+Abre tu enlace en una ventana de incógnito (o en otro teléfono) para ver lo mismo que tu cliente.
+
+## Pasos para revisarlo
+1. **¿Tu suscripción está activa o en prueba?** Entra a **Mi cuenta → Plan**. Si no, actívala (ver [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/)).
+2. **¿El restaurante está activo?** En **Restaurantes** no debe aparecer **Inactivo**; si lo está, pulsa **Activar**.
+3. **¿Hay platillos activos?** Los platillos **Inactivo** o **Archivado** no se muestran. Revísalo en [Crear y editar platillos](https://wiki.mesifly.com/menu/platillos/).
+4. **¿Estás dentro del horario?** Si es **Cerrado**, el cliente ve el menú pero al pedir sale «Fuera de horario de atención.». Revisa [Horario de atención](https://wiki.mesifly.com/pedidos/horario-de-atencion/) y la **Zona horaria**.
+
+## Qué verás
+- «Menú no disponible. Este menú no está disponible en este momento.»: suscripción inactiva o restaurante desactivado.
+- «Fuera de horario de atención.»: el cliente intentó pedir con el negocio cerrado.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| Tu pago falló | Stripe no pudo cobrar | Actualiza tu método de pago desde Stripe o contáctanos |
+| Cambié el horario y sigue cerrado | Falta guardar o la zona horaria es incorrecta | Pulsa **Guardar** en **Restaurante** y revisa la zona horaria |
+
+## Relacionado
+- [Horario de atención](https://wiki.mesifly.com/pedidos/horario-de-atencion/)
+- [Varios restaurantes](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/)
+
+---
+
+# Preguntas frecuentes
+URL: https://wiki.mesifly.com/preguntas-frecuentes/
+Actualizado: 2026-10-27
+Resumen: Respuestas cortas a las dudas más comunes sobre precio, pedidos, equipo, idiomas y qué incluye el sistema.
+
+## Precio y suscripción
+**¿Cuánto cuesta?** $5 USD al mes por restaurante (sucursal), con 14 días de prueba gratis en la primera alta. Ver [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/).
+
+**¿Cobran comisión por pedido?** No. Solo la suscripción.
+
+**¿Cómo cancelo?** Eliminando tu cuenta se cancela la suscripción: [Eliminar tu cuenta](https://wiki.mesifly.com/cuenta-y-plan/eliminar-cuenta/). Para pausar un negocio, [desactívalo](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/).
+
+## Tus clientes
+**¿El cliente tiene que registrarse o descargar una app?** No. Abre el enlace y pide. Ver [Cómo hace un pedido tu cliente](https://wiki.mesifly.com/para-tus-clientes/hacer-un-pedido/).
+
+**¿El cliente paga en la plataforma?** No. El pago lo arreglan cliente y restaurante directamente (efectivo o transferencia al recibir).
+
+**¿Cómo comparto mi menú?** Pulsa **Copiar enlace** en **Menú** y pégalo en WhatsApp, Instagram o un código QR. Ver [Buscar, vista previa y copiar el enlace](https://wiki.mesifly.com/menu/ver-y-compartir-el-menu/).
+
+## Pedidos
+**¿Cómo me avisan de un pedido?** Aparece en vivo en el panel y te llega por Telegram si lo [conectas](https://wiki.mesifly.com/pedidos/conectar-telegram/).
+
+**¿Llegan los pedidos por WhatsApp?** No: los avisos son por Telegram. El enlace del menú sí puede compartirse por WhatsApp.
+
+**¿Mesifly hace el reparto?** No. Recibe y organiza los pedidos; la entrega la haces tú.
+
+## Menú
+**¿Puedo armar mi menú con una foto?** Sí: [Subir fotos de tu menú](https://wiki.mesifly.com/menu/subir-fotos-del-menu/). La IA propone categorías, platillos y precios, y tú revisas.
+
+**¿Cómo cambio el orden?** Arrastrando: [Ordenar con arrastrar y soltar](https://wiki.mesifly.com/menu/ordenar-arrastrando/).
+
+**¿Puedo cambiar colores y logo?** Sí, hay 10 temas y tu logo: [Datos, logo y color](https://wiki.mesifly.com/mi-restaurante/configurar-restaurante/).
+
+## Equipo y sucursales
+**¿Puedo tener varias sucursales?** Sí, cada una con su menú, enlace y configuración: [Varios restaurantes](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/).
+
+**¿Puedo dar acceso a mi equipo?** Sí, con permisos limitados: [Crear empleados](https://wiki.mesifly.com/equipo/crear-empleados/).
+
+## General
+**¿En qué idiomas está?** Español e inglés. Cambia con los botones **ES** / **EN** de la parte superior.
+
+**¿Se puede instalar en el celular?** Se puede agregar a la pantalla de inicio desde el navegador (es una aplicación web, no está en las tiendas de aplicaciones).
+
+**¿Necesito saber de tecnología?** No. El alta es guiada y puedes empezar subiendo una foto de tu menú.
+
+**Si algo no funciona, ¿a quién escribo?** [POR CONFIRMAR: canal de soporte].
+
+---
+
+# Glosario
+URL: https://wiki.mesifly.com/glosario/
+Actualizado: 2026-10-27
+Resumen: Significado de los términos que verás en el sistema.
+
+| Término | Qué significa |
+|---|---|
+| **Restaurante / sucursal** | Cada negocio que das de alta. Tiene su menú, enlace, horario, empleados y Telegram. Cuenta como un menú de tu plan. |
+| **Dueño** | Quien contrata y administra la cuenta. Ve todo. |
+| **Empleado** | Persona con acceso limitado que atiende pedidos. Lo crea el dueño. |
+| **Comensal / cliente** | Quien pide desde el enlace del menú. No se registra. |
+| **Menú digital / menú público** | La página con tus categorías y platillos que ven tus clientes. |
+| **Enlace del menú** | La dirección `dominio/nombre-del-negocio` que compartes. |
+| **Categoría** | Grupo de platillos (Tacos, Bebidas…). |
+| **Platillo** | Un producto del menú, con nombre, precio, descripción y foto. |
+| **Estado del platillo** | **Activo** (visible), **Inactivo** (oculto, se conserva) o **Archivado**. |
+| **Pedido** | Orden que el cliente confirma desde el menú. |
+| **Pendiente / Atendido** | Estados de un pedido: por atender y ya resuelto. |
+| **Tema** | Conjunto de colores del menú (Clásico, Océano, etc.). |
+| **Plan / menús** | Cuántos restaurantes puedes tener activos; cada uno cuesta $5 USD al mes. |
+| **Prueba gratis** | Los primeros 14 días de la primera alta, sin cobro. |
+| **Telegram** | App de mensajes por donde te avisamos de cada pedido nuevo. |
+| **Vista previa** | Cómo verá tu cliente el menú, sin salir del panel. |
+
+---
+
+# Historial de cambios de la ayuda
+URL: https://wiki.mesifly.com/cambios/
+Actualizado: 2026-10-27
+Resumen: Registro de cambios de esta ayuda cuando cambia la aplicación.
+
+Se anota cada vez que se crea o cambia un artículo por un cambio en la aplicación. Lo más reciente va arriba.
+
+| Fecha | Qué cambió en la aplicación | Artículos actualizados |
+|---|---|---|
+| 2026-10-27 | Versión inicial de la wiki. Incluye lo ya disponible: arrastrar y soltar en el menú, confirmación al eliminar platillos, botón «Copiar enlace», subida de fotos del menú desde la configuración, guardado sin recargar la página. | Todos |

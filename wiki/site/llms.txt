@@ -1,0 +1,46 @@
+# Mesifly: centro de ayuda
+> Guías paso a paso de Mesifly, menú digital propio y pedidos directos para restaurantes, sin comisión por pedido. $5 USD al mes por restaurante (sucursal), 14 días de prueba gratis. Los pedidos llegan por Telegram; el comensal no se registra ni descarga nada; el pago se arregla directo con el restaurante.
+
+## Primeros pasos
+- [El asistente de alta, paso a paso](https://wiki.mesifly.com/primeros-pasos/asistente-de-alta/): Los pasos para dejar tu restaurante listo después de registrarte: datos, menú, horarios y suscripción.
+- [Cómo creo mi cuenta](https://wiki.mesifly.com/primeros-pasos/crear-cuenta/): Registrarte con correo y contraseña o con tu cuenta de Google, y confirmar tu correo.
+- [Cómo inicio sesión y recupero mi contraseña](https://wiki.mesifly.com/primeros-pasos/iniciar-sesion/): Entrar con tu usuario o correo, con Google, y qué hacer si olvidaste la contraseña o no te llegó el correo de confirmación.
+- [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/): Cuánto cuesta, cómo funcionan los 14 días gratis y cómo activar la suscripción.
+
+## Tu menú
+- [Cómo creo, edito y elimino categorías](https://wiki.mesifly.com/menu/categorias/): Crear categorías (Tacos, Bebidas…), cambiar su nombre y eliminarlas cuando estén vacías.
+- [Cómo ordeno mis categorías y platillos arrastrando](https://wiki.mesifly.com/menu/ordenar-arrastrando/): Cambiar el orden del menú con arrastrar y soltar, también en celular, y mover un platillo a otra categoría.
+- [Cómo creo, edito y elimino platillos](https://wiki.mesifly.com/menu/platillos/): Agregar un platillo con nombre, precio, descripción y foto; cambiar su estado; eliminarlo con confirmación.
+- [Cómo subo fotos de mi menú para que la IA lo arme](https://wiki.mesifly.com/menu/subir-fotos-del-menu/): Sube fotos de tu carta y la inteligencia artificial crea categorías, platillos y precios; luego tú ajustas lo que quieras.
+- [Cómo busco en mi menú, veo la vista previa y copio el enlace](https://wiki.mesifly.com/menu/ver-y-compartir-el-menu/): Buscar platillos o categorías, ver cómo lo verán tus clientes y copiar el enlace para compartirlo por WhatsApp, Instagram o QR.
+
+## Pedidos
+- [Cómo conecto Telegram para recibir avisos de pedidos](https://wiki.mesifly.com/pedidos/conectar-telegram/): Vincular tu Telegram para que cada pedido nuevo (y avisos de pago) llegue a tu teléfono.
+- [Cómo configuro mi horario de atención](https://wiki.mesifly.com/pedidos/horario-de-atencion/): Definir los días que descansas y la hora de apertura y cierre, para no recibir pedidos fuera de horario.
+- [Cómo recibo y atiendo los pedidos](https://wiki.mesifly.com/pedidos/recibir-y-atender-pedidos/): Ver los pedidos nuevos en vivo, abrir el detalle y marcarlos como atendidos.
+
+## Tu restaurante
+- [Cómo cambio los datos, el logo y el color de mi restaurante](https://wiki.mesifly.com/mi-restaurante/configurar-restaurante/): Editar nombre, dirección, teléfono, zona horaria, tema de color y logo que ven tus clientes.
+- [Cómo manejo varios restaurantes (sucursales)](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/): Registrar otra sucursal, cambiar entre restaurantes, y activarlos, desactivarlos o eliminarlos.
+
+## Tu equipo
+- [Cómo entra un empleado y qué puede hacer](https://wiki.mesifly.com/equipo/acceso-de-empleados/): Entrar con usuario y contraseña desde el enlace del restaurante, y las pantallas a las que tiene acceso.
+- [Cómo creo empleados](https://wiki.mesifly.com/equipo/crear-empleados/): Dar acceso a tu equipo con usuario y contraseña, y compartirles el enlace para entrar.
+
+## Consultar información
+- [Cómo consulto mis ventas y mis productos más pedidos](https://wiki.mesifly.com/consultar-informacion/dashboard/): Ver cuántos pedidos y productos vendiste y cuáles se piden más, filtrando por fechas.
+- [Cómo veo el resumen de ventas de todos mis restaurantes](https://wiki.mesifly.com/consultar-informacion/resumen-de-ventas/): Comparar pedidos, productos y ventas de cada sucursal en un periodo.
+
+## Cuenta y plan
+- [Cómo elimino mi cuenta](https://wiki.mesifly.com/cuenta-y-plan/eliminar-cuenta/): Qué pasa al eliminar tu cuenta y cómo hacerlo; también cancela tu suscripción.
+- [Cómo cambio mi perfil y mi contraseña](https://wiki.mesifly.com/cuenta-y-plan/perfil-y-contrasena/): Actualizar tu nombre y teléfono, y cambiar tu contraseña desde Mi cuenta.
+- [Cómo cambio mi plan (cuántos menús tengo)](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/): Ver cuánto pagas, aumentar o reducir el número de menús y activar tu suscripción.
+
+## Para tus clientes
+- [Cómo hace un pedido tu cliente](https://wiki.mesifly.com/para-tus-clientes/hacer-un-pedido/): El recorrido del comensal: abrir el enlace, elegir platillos, dejar sus datos y confirmar. Sin registro ni app.
+- [Por qué un cliente ve «Menú no disponible» o «Fuera de horario»](https://wiki.mesifly.com/para-tus-clientes/menu-no-disponible/): Las razones por las que tu menú no se muestra o no recibe pedidos, y cómo resolverlo.
+
+## Consulta rápida
+- [Preguntas frecuentes](https://wiki.mesifly.com/preguntas-frecuentes/): Respuestas cortas a las dudas más comunes sobre precio, pedidos, equipo, idiomas y qué incluye el sistema.
+- [Glosario](https://wiki.mesifly.com/glosario/): Significado de los términos que verás en el sistema.
+- [Historial de cambios de la ayuda](https://wiki.mesifly.com/cambios/): Registro de cambios de esta ayuda cuando cambia la aplicación.
