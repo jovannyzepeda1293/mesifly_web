@@ -3,6 +3,7 @@
 
 - [Inicio](https://mesifly.com/): qué es Mesifly, cómo funciona, funciones, precio y enlace para empezar.
 - [Preguntas frecuentes](https://mesifly.com/preguntas-frecuentes/): respuestas sobre pedidos, pagos, Telegram, sucursales, equipo y precio.
+- [Blog](https://blog.mesifly.com/): artículos sobre menús digitales y pedidos para restaurantes.
 
 Datos clave: el comensal no se registra ni descarga nada; el pago se resuelve directo con el restaurante (Mesifly no cobra al comensal); no hay repartidores ni pago en línea; español e inglés; 15 países; instalable como PWA.
 
