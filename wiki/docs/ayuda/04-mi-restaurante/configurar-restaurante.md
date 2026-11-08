@@ -4,10 +4,10 @@ titulo: Cómo cambio los datos, el logo y el color de mi restaurante
 audiencia: dueno
 categoria: mi-restaurante
 resumen: Editar nombre, dirección, teléfono, zona horaria, tema de color y logo que ven tus clientes.
-palabras_clave: [logo, tema, color, apariencia, nombre del restaurante, dirección, teléfono, zona horaria, personalizar]
+palabras_clave: [costo de envío, envío, logo, tema, color, apariencia, nombre del restaurante, dirección, teléfono, zona horaria, personalizar]
 ruta_app: /:slug/account/restaurant
-actualizado: 2026-10-27
-relacionados: [horario-de-atencion, conectar-telegram, ver-y-compartir-el-menu]
+actualizado: 2026-11-08
+relacionados: [mesifly-local, horario-de-atencion, conectar-telegram, ver-y-compartir-el-menu]
 ---
 # Cómo cambio los datos, el logo y el color de mi restaurante
 
@@ -20,10 +20,11 @@ Si quieres logo: una imagen de tu negocio (cuadrada o apaisada se ve bien).
 ## Pasos
 1. Entra a **Restaurante** (barra de arriba). Verás **Configuración del restaurante**.
 2. Edita los datos que necesites: **Nombre**, **Dirección**, **Teléfono** (formato internacional, ejemplo `+5215512345678`) y **Zona horaria**.
+   - **Costo de envío**: lo que cobras por entregar el pedido. Viene en **0** (sin cobro). Si pones un monto mayor que cero, se suma al total de cada pedido y tus clientes lo ven desglosado.
 3. Elige un **Tema** (ver abajo).
 4. En **Logo** pulsa **Subir logo** (o **Cambiar logo**). Para quitarlo, usa la **×** sobre la imagen.
 5. Ajusta el [horario de atención](../03-pedidos/horario-de-atencion.md) si hace falta.
-6. Pulsa **Guardar**.
+6. Pulsa **Guardar** (arriba a la derecha). Si cambiaste algo y no lo has guardado, aparece **Cambios sin guardar**.
 
 ## Temas de color disponibles
 **Clásico**, **Nocturno**, **Océano**, **Bosque**, **Atardecer**, **Realeza**, **Rosa**, **Monocromo**, **Cítrico** y **Pastel**. El tema cambia los colores de tu menú público y de tu panel.

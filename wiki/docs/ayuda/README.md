@@ -30,6 +30,7 @@ Sirve de dos formas:
 ### 4. Tu restaurante
 - [Datos, logo y color de tu restaurante](04-mi-restaurante/configurar-restaurante.md)
 - [Varios restaurantes (sucursales)](04-mi-restaurante/varios-restaurantes.md)
+- [Mesifly Local: la app de escritorio](04-mi-restaurante/mesifly-local.md)
 
 ### 5. Tu equipo
 - [Crear empleados](05-equipo/crear-empleados.md)

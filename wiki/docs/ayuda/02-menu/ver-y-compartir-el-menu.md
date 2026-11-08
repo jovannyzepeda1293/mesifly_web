@@ -6,7 +6,7 @@ categoria: menu
 resumen: Buscar platillos o categorías, ver cómo lo verán tus clientes y copiar el enlace para compartirlo por WhatsApp, Instagram o QR.
 palabras_clave: [copiar enlace, link del menú, compartir menú, whatsapp, instagram, qr, vista previa, ver menú, buscar platillo, url]
 ruta_app: /:slug/menu/config
-actualizado: 2026-10-27
+actualizado: 2026-11-08
 relacionados: [platillos, hacer-un-pedido, preguntas-frecuentes]
 ---
 # Cómo busco en mi menú, veo la vista previa y copio el enlace
@@ -23,6 +23,11 @@ Para el **dueño**.
 3. Pega el enlace donde quieras: WhatsApp, Instagram, tu perfil de Google, un código QR, etc.
 
 El enlace tiene la forma `dominio/nombre-del-negocio` y es el que abre tu menú público. Cada restaurante (sucursal) tiene su propio enlace.
+
+## Pasos: descargar el código QR
+1. Entra a **Menú**.
+2. Pulsa **Descargar QR**. Se baja una imagen (PNG) con el código QR de tu menú.
+3. Imprímela o compártela: al escanearla, tu cliente verá el menú **solo para consultar**, sin botones para agregar platillos al pedido. Para que pidan, comparte el enlace con **Copiar enlace**.
 
 ## Pasos: ver cómo lo verá tu cliente
 1. En **Menú** pulsa **Ver menú**.

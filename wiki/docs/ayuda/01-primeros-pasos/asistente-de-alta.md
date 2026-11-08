@@ -36,7 +36,7 @@ Puedes subir fotos de tu menú y dejar que la IA arme categorías y platillos, o
 Marca los días que descansas y define la hora de apertura y cierre de cada día. Pulsa **Continuar**. Puedes cambiarlos después. Ver [Horario de atención](../03-pedidos/horario-de-atencion.md).
 
 ### Paso 4 — Suscripción
-Verás «$5 USD por restaurante al mes. 14 días de prueba gratis.» Indica cuántos restaurantes darás de alta y pulsa **Activar**, o **Omitir** si prefieres hacerlo después. Detalle en [Prueba gratis y suscripción](prueba-gratis-y-suscripcion.md).
+Verás «$8 USD por restaurante al mes. 14 días de prueba gratis.» Indica cuántos restaurantes darás de alta y pulsa **Activar**, o **Omitir** si prefieres hacerlo después. Detalle en [Prueba gratis y suscripción](prueba-gratis-y-suscripcion.md).
 
 ## Qué verás
 Al terminar entras a tu panel (**Dashboard**). Tu menú público solo es visible para tus clientes cuando la suscripción está activa o en prueba.

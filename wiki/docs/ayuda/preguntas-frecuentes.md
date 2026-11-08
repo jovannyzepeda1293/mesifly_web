@@ -6,18 +6,18 @@ categoria: consulta-rapida
 resumen: Respuestas cortas a las dudas más comunes sobre precio, pedidos, equipo, idiomas y qué incluye el sistema.
 palabras_clave: [faq, dudas, precio, comisión, telegram, whatsapp, pago, sucursales, empleados, idiomas, qr]
 ruta_app: n/a
-actualizado: 2026-10-27
+actualizado: 2026-11-08
 relacionados: [prueba-gratis-y-suscripcion, hacer-un-pedido, ver-y-compartir-el-menu]
 ---
 
 # Preguntas frecuentes
 
 ## Precio y suscripción
-**¿Cuánto cuesta?** $5 USD al mes por restaurante (sucursal), con 14 días de prueba gratis en la primera alta. Ver [Prueba gratis y suscripción](01-primeros-pasos/prueba-gratis-y-suscripcion.md).
+**¿Cuánto cuesta?** $8 USD al mes por restaurante (sucursal), con 14 días de prueba gratis en la primera alta. Ver [Prueba gratis y suscripción](01-primeros-pasos/prueba-gratis-y-suscripcion.md).
 
 **¿Cobran comisión por pedido?** No. Solo la suscripción.
 
-**¿Cómo cancelo?** Eliminando tu cuenta se cancela la suscripción: [Eliminar tu cuenta](07-cuenta-y-plan/eliminar-cuenta.md). Para pausar un negocio, [desactívalo](04-mi-restaurante/varios-restaurantes.md).
+**¿Cómo cancelo?** En **Mi cuenta › Plan** pulsa **Cancelar plan**: te quedas sin suscripción pero conservas tu cuenta y tus datos ([Tu plan](07-cuenta-y-plan/plan-y-menus.md)). Si quieres borrar todo, [elimina tu cuenta](07-cuenta-y-plan/eliminar-cuenta.md). Para pausar un negocio, [desactívalo](04-mi-restaurante/varios-restaurantes.md).
 
 ## Tus clientes
 **¿El cliente tiene que registrarse o descargar una app?** No. Abre el enlace y pide. Ver [Cómo hace un pedido tu cliente](08-para-tus-clientes/hacer-un-pedido.md).
@@ -42,6 +42,8 @@ relacionados: [prueba-gratis-y-suscripcion, hacer-un-pedido, ver-y-compartir-el-
 
 ## Equipo y sucursales
 **¿Puedo tener varias sucursales?** Sí, cada una con su menú, enlace y configuración: [Varios restaurantes](04-mi-restaurante/varios-restaurantes.md).
+
+**¿Hay una caja o punto de venta?** Sí: Mesifly Local, para PC con Windows, que se activa con la clave de tu cuenta ([Mesifly Local](04-mi-restaurante/mesifly-local.md)).
 
 **¿Puedo dar acceso a mi equipo?** Sí, con permisos limitados: [Crear empleados](05-equipo/crear-empleados.md).
 

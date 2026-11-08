@@ -1,5 +1,5 @@
 # Mesifly
-> Menú digital propio y pedidos directos para restaurantes, sin comisión por pedido. Cada pedido llega al instante a Telegram. $5 USD/mes por restaurante (sucursal), 14 días de prueba gratis. Disponible ya en https://app.mesifly.com.
+> Menú digital propio y pedidos directos para restaurantes, sin comisión por pedido. Cada pedido llega al instante a Telegram. $8 USD/mes por restaurante (sucursal), 14 días de prueba gratis. Incluye Mesifly Local, la caja (punto de venta) para Windows. Disponible ya en https://app.mesifly.com.
 
 - [Inicio](https://mesifly.com/): qué es Mesifly, cómo funciona, funciones, precio y enlace para empezar.
 - [Preguntas frecuentes](https://mesifly.com/preguntas-frecuentes/): respuestas sobre pedidos, pagos, Telegram, sucursales, equipo y precio.

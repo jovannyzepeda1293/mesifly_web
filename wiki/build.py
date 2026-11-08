@@ -15,7 +15,7 @@ SITE = "https://wiki.mesifly.com"     # esta wiki, en la raíz de su subdominio
 PREFIX = os.environ.get("WIKI_PREFIX", "")
 OUT = ROOT / "site" / PREFIX.strip("/")
 # Datos de _variables.md (si cambian allá, cámbialos aquí)
-PRICE, TRIAL = "5", "14"
+PRICE, TRIAL = "8", "14"
 
 CATS = {
     "primeros-pasos": ("Primeros pasos", "🚀", "Crea tu cuenta, entra y deja listo tu restaurante."),

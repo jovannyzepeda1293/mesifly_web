@@ -1,5 +1,5 @@
 # Mesifly: centro de ayuda
-> Guías paso a paso de Mesifly, menú digital propio y pedidos directos para restaurantes, sin comisión por pedido. $5 USD al mes por restaurante (sucursal), 14 días de prueba gratis. Los pedidos llegan por Telegram; el comensal no se registra ni descarga nada; el pago se arregla directo con el restaurante.
+> Guías paso a paso de Mesifly, menú digital propio y pedidos directos para restaurantes, sin comisión por pedido. $8 USD al mes por restaurante (sucursal), 14 días de prueba gratis. Los pedidos llegan por Telegram; el comensal no se registra ni descarga nada; el pago se arregla directo con el restaurante.
 
 ## Primeros pasos
 - [El asistente de alta, paso a paso](https://wiki.mesifly.com/primeros-pasos/asistente-de-alta/): Los pasos para dejar tu restaurante listo después de registrarte: datos, menú, horarios y suscripción.
@@ -21,6 +21,7 @@
 
 ## Tu restaurante
 - [Cómo cambio los datos, el logo y el color de mi restaurante](https://wiki.mesifly.com/mi-restaurante/configurar-restaurante/): Editar nombre, dirección, teléfono, zona horaria, tema de color y logo que ven tus clientes.
+- [Cómo activo Mesifly Local, la app de escritorio](https://wiki.mesifly.com/mi-restaurante/mesifly-local/): Descargar la caja para Windows, activarla con tu clave de licencia, liberar una PC y qué se sincroniza con tu cuenta web.
 - [Cómo manejo varios restaurantes (sucursales)](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/): Registrar otra sucursal, cambiar entre restaurantes, y activarlos, desactivarlos o eliminarlos.
 
 ## Tu equipo

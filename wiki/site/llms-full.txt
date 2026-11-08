@@ -32,7 +32,7 @@ Puedes subir fotos de tu menú y dejar que la IA arme categorías y platillos, o
 Marca los días que descansas y define la hora de apertura y cierre de cada día. Pulsa **Continuar**. Puedes cambiarlos después. Ver [Horario de atención](https://wiki.mesifly.com/pedidos/horario-de-atencion/).
 
 ### Paso 4 — Suscripción
-Verás «$5 USD por restaurante al mes. 14 días de prueba gratis.» Indica cuántos restaurantes darás de alta y pulsa **Activar**, o **Omitir** si prefieres hacerlo después. Detalle en [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/).
+Verás «$8 USD por restaurante al mes. 14 días de prueba gratis.» Indica cuántos restaurantes darás de alta y pulsa **Activar**, o **Omitir** si prefieres hacerlo después. Detalle en [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/).
 
 ## Qué verás
 Al terminar entras a tu panel (**Dashboard**). Tu menú público solo es visible para tus clientes cuando la suscripción está activa o en prueba.
@@ -154,7 +154,7 @@ Para el **dueño**.
 - Una tarjeta de crédito o débito. El cobro lo procesa **Stripe**.
 
 ## Cuánto cuesta
-- **$5 USD al mes por restaurante (sucursal).**
+- **$8 USD al mes por restaurante (sucursal).**
 - **14 días de prueba gratis** en la primera alta.
 - **Sin comisión por pedido.** Tus clientes no pagan nada a Mesifly.
 
@@ -355,7 +355,7 @@ Categorías y platillos con nombre, precio y descripción tomados de tus fotos. 
 
 # Cómo busco en mi menú, veo la vista previa y copio el enlace
 URL: https://wiki.mesifly.com/menu/ver-y-compartir-el-menu/
-Actualizado: 2026-10-27
+Actualizado: 2026-11-08
 Resumen: Buscar platillos o categorías, ver cómo lo verán tus clientes y copiar el enlace para compartirlo por WhatsApp, Instagram o QR.
 
 ## Para quién es
@@ -370,6 +370,11 @@ Para el **dueño**.
 3. Pega el enlace donde quieras: WhatsApp, Instagram, tu perfil de Google, un código QR, etc.
 
 El enlace tiene la forma `dominio/nombre-del-negocio` y es el que abre tu menú público. Cada restaurante (sucursal) tiene su propio enlace.
+
+## Pasos: descargar el código QR
+1. Entra a **Menú**.
+2. Pulsa **Descargar QR**. Se baja una imagen (PNG) con el código QR de tu menú.
+3. Imprímela o compártela: al escanearla, tu cliente verá el menú **solo para consultar**, sin botones para agregar platillos al pedido. Para que pidan, comparte el enlace con **Copiar enlace**.
 
 ## Pasos: ver cómo lo verá tu cliente
 1. En **Menú** pulsa **Ver menú**.
@@ -468,7 +473,7 @@ Nada especial. También lo defines en el [asistente de alta](https://wiki.mesifl
 
 # Cómo recibo y atiendo los pedidos
 URL: https://wiki.mesifly.com/pedidos/recibir-y-atender-pedidos/
-Actualizado: 2026-10-27
+Actualizado: 2026-11-08
 Resumen: Ver los pedidos nuevos en vivo, abrir el detalle y marcarlos como atendidos.
 
 ## Para quién es
@@ -480,14 +485,17 @@ Para el **dueño** y los **empleados**.
 
 ## Pasos
 1. Entra a **Pedidos** (barra de arriba). Si estás en el **Dashboard**, también hay un botón **Pedidos**.
-2. Verás dos pestañas: **Pendientes** (por atender) y **Atendidos** (historial).
+2. Verás tres pestañas: **Pendientes** (por atender), **Atendidos** y **Cancelados** (historial). En **Atendidos** y **Cancelados** hay un filtro **Día** que empieza en **hoy**: elige otra fecha y pulsa **Filtrar** (o **Hoy** para volver).
 3. Cuando entra un pedido nuevo mientras tienes la página abierta, aparece un aviso **¡Nuevo pedido!** con el nombre del cliente y el total. Pulsa **Ver pedido** para ir a él.
 4. Pulsa **Ver detalle** en un pedido para abrir **Detalle del pedido**: **Cliente**, **Teléfono**, **Dirección**, **Notas**, **Comentarios de productos**, **Productos**, **Subtotal**, **Envío**, **Propina** y **Total**, además de cuándo fue **Recibido**.
 5. Cuando lo hayas entregado o resuelto, pulsa **Marcar como atendido**.
-6. Pulsa **Cerrar** para salir del detalle.
+6. Si el pedido no se va a entregar, abre **Ver detalle**, despliega **Cancelar pedido**, escribe el **Motivo** (de 3 a 200 caracteres) y pulsa **Confirmar cancelación**. Un pedido ya atendido también se puede cancelar.
+7. Pulsa **Cerrar** para salir del detalle.
 
 ## Qué verás
 - «Pedido marcado como atendido.» y el pedido pasa de **Pendientes** a **Atendidos**, donde queda con la hora en que se atendió.
+- «Pedido cancelado.» y el pedido pasa a **Cancelados**, con el motivo, quién lo canceló y cuándo. Un pedido cancelado **ya no cuenta** en tus ventas, pedidos ni productos más pedidos. La cancelación no se puede deshacer.
+- Los pedidos que se cobran en la app de escritorio ([Mesifly Local](https://wiki.mesifly.com/mi-restaurante/mesifly-local/)) aparecen en **Atendidos** con la etiqueta **Escritorio**, la mesa y el método de pago.
 - La lista carga más pedidos al llegar al final («Cargando más pedidos…»).
 - Si no hay nada: «No hay pedidos.»
 
@@ -497,6 +505,7 @@ Para el **dueño** y los **empleados**.
 | No me llegan pedidos | El menú no está visible, estás fuera de horario o el cliente no confirmó el pedido | Revisa [Menú no disponible](https://wiki.mesifly.com/para-tus-clientes/menu-no-disponible/) |
 | No me llega el aviso en el teléfono | Telegram no está conectado | [Conéctalo](https://wiki.mesifly.com/pedidos/conectar-telegram/) |
 | No veo el aviso «¡Nuevo pedido!» | La página estaba cerrada | Abre **Pedidos**: ahí aparecen todos los pendientes |
+| «Escribe el motivo de la cancelación» | El motivo está vacío o tiene menos de 3 caracteres | Escríbelo y confirma de nuevo |
 | El pago | La plataforma no cobra al cliente | El pago lo acuerdas directamente con tu cliente (efectivo o transferencia) |
 
 ## Relacionado
@@ -507,7 +516,7 @@ Para el **dueño** y los **empleados**.
 
 # Cómo cambio los datos, el logo y el color de mi restaurante
 URL: https://wiki.mesifly.com/mi-restaurante/configurar-restaurante/
-Actualizado: 2026-10-27
+Actualizado: 2026-11-08
 Resumen: Editar nombre, dirección, teléfono, zona horaria, tema de color y logo que ven tus clientes.
 
 ## Para quién es
@@ -519,10 +528,11 @@ Si quieres logo: una imagen de tu negocio (cuadrada o apaisada se ve bien).
 ## Pasos
 1. Entra a **Restaurante** (barra de arriba). Verás **Configuración del restaurante**.
 2. Edita los datos que necesites: **Nombre**, **Dirección**, **Teléfono** (formato internacional, ejemplo `+5215512345678`) y **Zona horaria**.
+   - **Costo de envío**: lo que cobras por entregar el pedido. Viene en **0** (sin cobro). Si pones un monto mayor que cero, se suma al total de cada pedido y tus clientes lo ven desglosado.
 3. Elige un **Tema** (ver abajo).
 4. En **Logo** pulsa **Subir logo** (o **Cambiar logo**). Para quitarlo, usa la **×** sobre la imagen.
 5. Ajusta el [horario de atención](https://wiki.mesifly.com/pedidos/horario-de-atencion/) si hace falta.
-6. Pulsa **Guardar**.
+6. Pulsa **Guardar** (arriba a la derecha). Si cambiaste algo y no lo has guardado, aparece **Cambios sin guardar**.
 
 ## Temas de color disponibles
 **Clásico**, **Nocturno**, **Océano**, **Bosque**, **Atardecer**, **Realeza**, **Rosa**, **Monocromo**, **Cítrico** y **Pastel**. El tema cambia los colores de tu menú público y de tu panel.
@@ -543,6 +553,61 @@ Si quieres logo: una imagen de tu negocio (cuadrada o apaisada se ve bien).
 
 ---
 
+# Cómo activo Mesifly Local, la app de escritorio
+URL: https://wiki.mesifly.com/mi-restaurante/mesifly-local/
+Actualizado: 2026-11-08
+Resumen: Descargar la caja para Windows, activarla con tu clave de licencia, liberar una PC y qué se sincroniza con tu cuenta web.
+
+## Qué es
+**Mesifly Local** es la caja (punto de venta) de Mesifly para una PC con **Windows de 64 bits**. Cobra con efectivo, tarjeta o transferencia (con propina, descuento, pago mixto y cuenta dividida), imprime comandas y tickets, lleva turnos y corte de caja, inventario con recetas, compras a proveedores, finanzas, y permite que **tablets de meseros** tomen pedidos por tu WiFi. Funciona sin internet en el día a día: solo necesita conexión para activarse, sincronizar y verificar la licencia (al menos una vez cada 7 días).
+
+Esta página explica solo la parte que se hace **desde tu cuenta web**: la clave de licencia y la PC activada.
+
+## Para quién es
+Para el **dueño**. Los empleados no ven esta sección.
+
+## Antes de empezar
+- Tu suscripción debe estar **activa** o en **prueba gratis**.
+- Cada restaurante (menú) tiene **su propia clave**, y cada clave sirve para **una sola PC**.
+
+## Pasos
+1. Entra a **Restaurante** (barra de arriba) y baja a **Mesifly Local (app de escritorio)**.
+2. Pulsa **Descargar Mesifly Local para Windows** para bajar el instalador e instálalo en la PC de la caja.
+3. Verás tu **Clave de licencia**, con este formato: `MSF-XXXX-XXXX-XXXX`. Se crea sola al activar el menú; si no aparece, pulsa **Generar clave**.
+4. En la PC, abre la app de escritorio y escribe la clave cuando te la pida. Esa PC queda activada y sincroniza tu menú y tus pedidos.
+5. Para usar **otra** PC, pulsa **Liberar PC** junto a la que ya no uses y confirma. Después activa la nueva con la misma clave.
+6. Si crees que alguien más conoce tu clave, pulsa **Generar clave nueva**. La anterior ya no sirve para activar equipos; la PC que ya estaba activada sigue funcionando.
+
+## Qué verás
+- «Clave de licencia lista.» y debajo la clave.
+- En **PC activada**, el nombre de la PC y su **Último contacto** (o «sin contacto» si todavía no se ha conectado).
+- «PC liberada.» al liberar un equipo.
+
+## Chat de soporte
+Si entras como **dueño** y tu pantalla está en **español**, verás una burbuja de chat **Soporte Mesifly** abajo a la derecha. Escribe tu duda y te responden por ahí. Solo el dueño con su sesión iniciada la ve: los empleados y los clientes no. De momento el chat solo existe en español.
+
+## Qué se sincroniza
+- **El menú** (categorías y platillos con su foto): lo que cambies en un lado aparece en el otro. Si cambias el mismo platillo en los dos lados antes de sincronizar, **se queda la versión de la web**.
+- **Los pedidos**: los pedidos de tus clientes llegan a la app de escritorio, y las ventas cobradas en la caja aparecen en **Pedidos › Atendidos** y en tu dashboard.
+- Si cancelas un pedido en la web, la app de escritorio lo marca cancelado, y al revés.
+- Empleados, inventario, caja y finanzas se quedan **solo en la PC** de la caja; haz respaldos con regularidad desde la app.
+
+## Problemas comunes
+| Si ves… | Pasa porque… | Qué hacer |
+|---|---|---|
+| La app dice que la licencia está desactivada | Tu suscripción no está activa, o pasaron **más de 5 días** desde que terminó el periodo que pagaste | Renueva o reactiva tu [plan](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/); mientras tanto la app te deja exportar tus datos |
+| La app dice que ya hay una PC activa | Ya activaste otra PC con esta clave | Libérala con **Liberar PC** y vuelve a intentar |
+| La app dice que la licencia fue revocada | Liberaste esa PC o se desactivó | Actívala de nuevo con la clave |
+| No veo la burbuja de **Soporte Mesifly** | Tu pantalla no está en español, o entraste como empleado | Cambia el idioma a español y entra con la cuenta del dueño |
+| No veo **Mesifly Local** | La sección es solo del dueño | Entra con la cuenta del dueño |
+
+## Relacionado
+- [Datos, logo y color de tu restaurante](https://wiki.mesifly.com/mi-restaurante/configurar-restaurante/)
+- [Recibir y atender pedidos](https://wiki.mesifly.com/pedidos/recibir-y-atender-pedidos/)
+- [Tu plan y cuántos menús incluye](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/)
+
+---
+
 # Cómo manejo varios restaurantes (sucursales)
 URL: https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/
 Actualizado: 2026-10-27
@@ -552,7 +617,7 @@ Resumen: Registrar otra sucursal, cambiar entre restaurantes, y activarlos, desa
 Para el **dueño**. Cada restaurante tiene su propio menú, enlace, empleados, horarios y Telegram, y cuenta como un menú de tu plan.
 
 ## Antes de empezar
-- Tener espacio en tu [plan](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/): cada menú cuesta $5 USD al mes.
+- Tener espacio en tu [plan](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/): cada menú cuesta $8 USD al mes.
 
 ## Pasos: registrar otro restaurante
 1. Entra a **Restaurantes** (barra de arriba) y pulsa **Registrar restaurante nuevo**.
@@ -730,13 +795,14 @@ Los totales juntos y el desglose por sucursal. Si una sucursal no tuvo movimient
 
 # Cómo elimino mi cuenta
 URL: https://wiki.mesifly.com/cuenta-y-plan/eliminar-cuenta/
-Actualizado: 2026-10-27
+Actualizado: 2026-11-08
 Resumen: Qué pasa al eliminar tu cuenta y cómo hacerlo; también cancela tu suscripción.
 
 ## Para quién es
 Para el **dueño** que ya no usará Mesifly. **No se puede deshacer.**
 
 ## Antes de empezar
+- Si solo quieres dejar de pagar pero conservar tu cuenta y tus datos, usa **Cancelar plan** en [Tu plan](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/): no borra nada.
 - Si solo quieres pausar un negocio, mejor [desactívalo](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/): se puede reactivar.
 
 ## Pasos
@@ -801,14 +867,14 @@ Si cambias la contraseña, ten a la mano la actual.
 
 # Cómo cambio mi plan (cuántos menús tengo)
 URL: https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/
-Actualizado: 2026-10-27
+Actualizado: 2026-11-08
 Resumen: Ver cuánto pagas, aumentar o reducir el número de menús y activar tu suscripción.
 
 ## Para quién es
-Para el **dueño**. Cada menú es un restaurante (sucursal) y cuesta **$5 USD al mes**.
+Para el **dueño**. Cada menú es un restaurante (sucursal) y cuesta **$8 USD al mes**.
 
 ## Antes de empezar
-Tener una suscripción activa o en prueba. Si no la tienes, verás «Aún no tienes una suscripción activa.» y el botón **Activar suscripción**.
+Tener una suscripción activa o en prueba. Si no la tienes, verás «Aún no tienes una suscripción activa.» y el botón **Activar suscripción**. Al volver **no hay otra prueba gratis**: los 14 días son solo para la primera suscripción, así que el cobro empieza desde el primer día.
 
 ## Pasos
 1. Entra a **Mi cuenta** y busca la sección **Plan**.
@@ -817,15 +883,23 @@ Tener una suscripción activa o en prueba. Si no la tienes, verás «Aún no tie
 4. Pulsa **Actualizar plan**. Al aumentar, se ajusta el cargo en Stripe.
 5. Espera en «Actualizando tu plan…» (no cierres la página): se espera la confirmación de Stripe y puede tardar unos segundos.
 
+## Cómo cancelo mi plan (sin borrar mi cuenta)
+1. En **Mi cuenta › Plan**, baja al botón **Cancelar plan**.
+2. Lee el aviso y pulsa **Sí, cancelar plan** (o **Cancelar**).
+3. Tu cuenta, tus restaurantes y tus datos **se conservan**; solo te quedas **sin suscripción**.
+4. Tu menú público y tu clave de Mesifly Local siguen funcionando hasta que termine el periodo que ya pagaste, más 5 días. Después dejan de estar disponibles.
+5. Para volver, en la misma sección verás «Tu plan está cancelado. Puedes volver a suscribirte cuando quieras.» y el botón **Activar suscripción**.
+
 ## Qué verás
-«Plan actualizado.» y el nuevo costo mensual.
+«Plan actualizado.» y el nuevo costo mensual. Al cancelar: «Plan cancelado. Tu cuenta y tus datos se conservan.»
 
 ## Problemas comunes
 | Si ves… | Pasa porque… | Qué hacer |
 |---|---|---|
 | «No puedes reducir tu plan por debajo de tus menús activos.» | Tienes más restaurantes activos que los menús que pides | [Desactiva o elimina](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/) restaurantes primero |
 | «No tienes una suscripción activa.» | No hay suscripción | Pulsa **Activar suscripción** |
-| Quiero cancelar | Se cancela al eliminar la cuenta | Ver [Eliminar tu cuenta](https://wiki.mesifly.com/cuenta-y-plan/eliminar-cuenta/) |
+| «No se pudo cancelar el plan. Inténtalo de nuevo en unos minutos.» | Stripe no respondió; tu plan sigue igual | Vuelve a pulsar **Cancelar plan** en unos minutos |
+| Quiero borrar todo | Cancelar el plan no elimina la cuenta | Ver [Eliminar tu cuenta](https://wiki.mesifly.com/cuenta-y-plan/eliminar-cuenta/) |
 
 ## Relacionado
 - [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/)
@@ -873,7 +947,7 @@ Tener el enlace del menú del restaurante (por WhatsApp, Instagram, código QR, 
 
 # Por qué un cliente ve «Menú no disponible» o «Fuera de horario»
 URL: https://wiki.mesifly.com/para-tus-clientes/menu-no-disponible/
-Actualizado: 2026-10-27
+Actualizado: 2026-11-08
 Resumen: Las razones por las que tu menú no se muestra o no recibe pedidos, y cómo resolverlo.
 
 ## Para quién es
@@ -883,7 +957,7 @@ Para el **dueño** cuando sus clientes no pueden ver el menú o pedir.
 Abre tu enlace en una ventana de incógnito (o en otro teléfono) para ver lo mismo que tu cliente.
 
 ## Pasos para revisarlo
-1. **¿Tu suscripción está activa o en prueba?** Entra a **Mi cuenta → Plan**. Si no, actívala (ver [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/)).
+1. **¿Tu suscripción está activa o en prueba?** Entra a **Mi cuenta → Plan**. Si no, actívala (si un cobro falla, tu menú sigue visible **5 días** después de que terminó el periodo que pagaste; pasado ese plazo se oculta hasta que renueves) (ver [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/)).
 2. **¿El restaurante está activo?** En **Restaurantes** no debe aparecer **Inactivo**; si lo está, pulsa **Activar**.
 3. **¿Hay platillos activos?** Los platillos **Inactivo** o **Archivado** no se muestran. Revísalo en [Crear y editar platillos](https://wiki.mesifly.com/menu/platillos/).
 4. **¿Estás dentro del horario?** Si es **Cerrado**, el cliente ve el menú pero al pedir sale «Fuera de horario de atención.». Revisa [Horario de atención](https://wiki.mesifly.com/pedidos/horario-de-atencion/) y la **Zona horaria**.
@@ -906,15 +980,15 @@ Abre tu enlace en una ventana de incógnito (o en otro teléfono) para ver lo mi
 
 # Preguntas frecuentes
 URL: https://wiki.mesifly.com/preguntas-frecuentes/
-Actualizado: 2026-10-27
+Actualizado: 2026-11-08
 Resumen: Respuestas cortas a las dudas más comunes sobre precio, pedidos, equipo, idiomas y qué incluye el sistema.
 
 ## Precio y suscripción
-**¿Cuánto cuesta?** $5 USD al mes por restaurante (sucursal), con 14 días de prueba gratis en la primera alta. Ver [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/).
+**¿Cuánto cuesta?** $8 USD al mes por restaurante (sucursal), con 14 días de prueba gratis en la primera alta. Ver [Prueba gratis y suscripción](https://wiki.mesifly.com/primeros-pasos/prueba-gratis-y-suscripcion/).
 
 **¿Cobran comisión por pedido?** No. Solo la suscripción.
 
-**¿Cómo cancelo?** Eliminando tu cuenta se cancela la suscripción: [Eliminar tu cuenta](https://wiki.mesifly.com/cuenta-y-plan/eliminar-cuenta/). Para pausar un negocio, [desactívalo](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/).
+**¿Cómo cancelo?** En **Mi cuenta › Plan** pulsa **Cancelar plan**: te quedas sin suscripción pero conservas tu cuenta y tus datos ([Tu plan](https://wiki.mesifly.com/cuenta-y-plan/plan-y-menus/)). Si quieres borrar todo, [elimina tu cuenta](https://wiki.mesifly.com/cuenta-y-plan/eliminar-cuenta/). Para pausar un negocio, [desactívalo](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/).
 
 ## Tus clientes
 **¿El cliente tiene que registrarse o descargar una app?** No. Abre el enlace y pide. Ver [Cómo hace un pedido tu cliente](https://wiki.mesifly.com/para-tus-clientes/hacer-un-pedido/).
@@ -940,6 +1014,8 @@ Resumen: Respuestas cortas a las dudas más comunes sobre precio, pedidos, equip
 ## Equipo y sucursales
 **¿Puedo tener varias sucursales?** Sí, cada una con su menú, enlace y configuración: [Varios restaurantes](https://wiki.mesifly.com/mi-restaurante/varios-restaurantes/).
 
+**¿Hay una caja o punto de venta?** Sí: Mesifly Local, para PC con Windows, que se activa con la clave de tu cuenta ([Mesifly Local](https://wiki.mesifly.com/mi-restaurante/mesifly-local/)).
+
 **¿Puedo dar acceso a mi equipo?** Sí, con permisos limitados: [Crear empleados](https://wiki.mesifly.com/equipo/crear-empleados/).
 
 ## General
@@ -963,6 +1039,8 @@ Resumen: Significado de los términos que verás en el sistema.
 | **Restaurante / sucursal** | Cada negocio que das de alta. Tiene su menú, enlace, horario, empleados y Telegram. Cuenta como un menú de tu plan. |
 | **Dueño** | Quien contrata y administra la cuenta. Ve todo. |
 | **Empleado** | Persona con acceso limitado que atiende pedidos. Lo crea el dueño. |
+| **Mesifly Local** | La caja (punto de venta) para PC con Windows. Se activa con una clave de licencia de tu cuenta web. |
+| **Clave de licencia** | Código `MSF-XXXX-XXXX-XXXX` que activa Mesifly Local en una sola PC. |
 | **Comensal / cliente** | Quien pide desde el enlace del menú. No se registra. |
 | **Menú digital / menú público** | La página con tus categorías y platillos que ven tus clientes. |
 | **Enlace del menú** | La dirección `dominio/nombre-del-negocio` que compartes. |
@@ -972,7 +1050,7 @@ Resumen: Significado de los términos que verás en el sistema.
 | **Pedido** | Orden que el cliente confirma desde el menú. |
 | **Pendiente / Atendido** | Estados de un pedido: por atender y ya resuelto. |
 | **Tema** | Conjunto de colores del menú (Clásico, Océano, etc.). |
-| **Plan / menús** | Cuántos restaurantes puedes tener activos; cada uno cuesta $5 USD al mes. |
+| **Plan / menús** | Cuántos restaurantes puedes tener activos; cada uno cuesta $8 USD al mes. |
 | **Prueba gratis** | Los primeros 14 días de la primera alta, sin cobro. |
 | **Telegram** | App de mensajes por donde te avisamos de cada pedido nuevo. |
 | **Vista previa** | Cómo verá tu cliente el menú, sin salir del panel. |
@@ -988,4 +1066,5 @@ Se anota cada vez que se crea o cambia un artículo por un cambio en la aplicaci
 
 | Fecha | Qué cambió en la aplicación | Artículos actualizados |
 |---|---|---|
+| 2026-11-08 | Precio a $8 USD al mes. Nuevos: cancelar plan sin borrar la cuenta, cancelar pedidos y pestaña Cancelados, filtro por día, costo de envío, código QR del menú, Mesifly Local (clave de licencia). | plan-y-menus, eliminar-cuenta, recibir-y-atender-pedidos, configurar-restaurante, ver-y-compartir-el-menu, menu-no-disponible, mesifly-local, preguntas-frecuentes, glosario |
 | 2026-10-27 | Versión inicial de la wiki. Incluye lo ya disponible: arrastrar y soltar en el menú, confirmación al eliminar platillos, botón «Copiar enlace», subida de fotos del menú desde la configuración, guardado sin recargar la página. | Todos |

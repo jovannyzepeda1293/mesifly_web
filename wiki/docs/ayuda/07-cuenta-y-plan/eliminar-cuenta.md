@@ -6,7 +6,7 @@ categoria: cuenta-y-plan
 resumen: Qué pasa al eliminar tu cuenta y cómo hacerlo; también cancela tu suscripción.
 palabras_clave: [eliminar cuenta, borrar cuenta, darme de baja, cancelar suscripción, zona de peligro, cancelar]
 ruta_app: /:slug/account
-actualizado: 2026-10-27
+actualizado: 2026-11-08
 relacionados: [plan-y-menus, varios-restaurantes]
 ---
 # Cómo elimino mi cuenta
@@ -15,6 +15,7 @@ relacionados: [plan-y-menus, varios-restaurantes]
 Para el **dueño** que ya no usará Mesifly. **No se puede deshacer.**
 
 ## Antes de empezar
+- Si solo quieres dejar de pagar pero conservar tu cuenta y tus datos, usa **Cancelar plan** en [Tu plan](plan-y-menus.md): no borra nada.
 - Si solo quieres pausar un negocio, mejor [desactívalo](../04-mi-restaurante/varios-restaurantes.md): se puede reactivar.
 
 ## Pasos

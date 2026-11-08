@@ -6,7 +6,7 @@ Valores que se repiten en varios artículos. Si cambian, **busca y reemplaza** e
 |---|---|---|
 | Nombre del producto | Mesifly | Todos |
 | Dominio del enlace de menú | `[POR CONFIRMAR: dominio oficial]` (el enlace tiene la forma `dominio/nombre-del-negocio`) | Compartir el menú, FAQ |
-| Precio | $5 USD al mes por restaurante (sucursal) | Suscripción, plan, FAQ |
+| Precio | $8 USD al mes por restaurante (sucursal) | Suscripción, plan, FAQ |
 | Prueba gratis | 14 días, solo en la primera alta | Suscripción, FAQ |
 | Máximo de menús por plan | 30 | Plan y menús |
 | Reglas de contraseña | 8 a 16 caracteres, con una mayúscula, una minúscula, un número y un símbolo | Crear cuenta, perfil, empleados |

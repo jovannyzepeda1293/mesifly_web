@@ -40,7 +40,7 @@ El `telegram_chat_id` se configura en `/:slug/cuenta/tienda`, o vinculando `t.me
 
 - 1 Customer por Restaurant, 1 Subscription con N SubscriptionItem (uno por sucursal).
 - Trial 14 días solo en la primera alta.
-- Precio $5 USD/mes por sucursal; proration `create_prorations`.
+- Precio $8 USD/mes por sucursal; proration `create_prorations`.
 - Cancelación `cancel_at_period_end: true`.
 
 ## Gate de suscripción

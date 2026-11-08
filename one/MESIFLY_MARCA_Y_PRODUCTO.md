@@ -89,9 +89,9 @@ El **comprador** es el dueño. El comensal es quien hace que el producto se vea 
 
 ## 7. Precio y modelo de negocio
 
-- **$5 USD al mes por restaurante (sucursal).**
+- **$8 USD al mes por restaurante (sucursal).**
 - **14 días de prueba gratis** en la primera alta.
-- Más sucursales = más "menús" contratados, a $5 USD mensuales cada uno; se ajusta desde la cuenta.
+- Más sucursales = más "menús" contratados, a $8 USD mensuales cada uno; se ajusta desde la cuenta.
 - **Sin comisión por pedido.** El comensal no paga nada a Mesifly.
 - Cobro de la suscripción con tarjeta vía Stripe.
 
@@ -100,7 +100,7 @@ El **comprador** es el dueño. El comensal es quien hace que el producto se vea 
 ## 8. Qué nos hace diferentes (mensajes clave)
 
 1. **Tu cliente es tuyo.** Pedidos directos al restaurante, sin intermediarios ni comisión por pedido.
-2. **Precio simple y bajo:** $5 USD al mes, sin letras chicas por volumen de ventas.
+2. **Precio simple y bajo:** $8 USD al mes, sin letras chicas por volumen de ventas.
 3. **Cero fricción para el comensal:** no se registra, no descarga una app.
 4. **Pedidos donde ya estás:** llegan a Telegram, no a otro sistema que aprender.
 5. **Menú armado con IA** a partir de fotos: empezar toma minutos.
@@ -132,7 +132,7 @@ El **comprador** es el dueño. El comensal es quien hace que el producto se vea 
 - Carruseles: "5 errores al tomar pedidos por chat", "cuánto pagas realmente de comisión".
 - Demo de pantalla del pedido llegando a Telegram.
 - Cartel/QR para mesas y mostrador (el QR lleva al menú del restaurante).
-- Calculadora/infografía de comisión vs. $5 USD mensuales.
+- Calculadora/infografía de comisión vs. $8 USD mensuales.
 
 **Llamados a la acción:** «Prueba 14 días gratis», «Crea tu menú en minutos», «Escanea y mira un menú de ejemplo».
 
@@ -141,14 +141,14 @@ El **comprador** es el dueño. El comensal es quien hace que el producto se vea 
 2. Problema (chat desordenado, comisiones).
 3. Cómo funciona en 3 pasos (Sube tu menú → Comparte tu link → Recibe pedidos en Telegram).
 4. Funciones destacadas con capturas.
-5. Precio ($5 USD por restaurante, 14 días gratis, sin comisión).
+5. Precio ($8 USD por restaurante, 14 días gratis, sin comisión).
 6. Preguntas frecuentes.
 7. Llamado final a crear la cuenta.
 
 ## 11. Preguntas frecuentes (respuestas oficiales)
 
 - **¿El cliente tiene que registrarse o descargar algo?** No. Abre el link y pide.
-- **¿Cobran comisión por pedido?** No. Solo la suscripción de $5 USD al mes por restaurante.
+- **¿Cobran comisión por pedido?** No. Solo la suscripción de $8 USD al mes por restaurante.
 - **¿El cliente paga en la plataforma?** No. El pago lo arreglan cliente y restaurante directamente.
 - **¿Cómo me avisan de un pedido?** Por Telegram, y también aparece en el panel en vivo.
 - **¿Puedo tener varias sucursales?** Sí, cada una con su menú y su link.
@@ -167,7 +167,7 @@ El **comprador** es el dueño. El comensal es quien hace que el producto se vea 
 - ❌ App nativa en tiendas (es web instalable).
 - ❌ Cifras de ventas, número de clientes o testimonios que no existan.
 - ❌ Comparar nombres de competidores con datos inventados. Si se compara, hablar de "comisiones por pedido" en general.
-- ❌ Precios distintos a $5 USD/mes por restaurante con 14 días de prueba.
+- ❌ Precios distintos a $8 USD/mes por restaurante con 14 días de prueba.
 
 ## 13. Datos de marca pendientes
 
@@ -182,7 +182,7 @@ El **comprador** es el dueño. El comensal es quien hace que el producto se vea 
 
 ## 14. Glosario rápido
 
-- **Restaurante / sucursal:** unidad que paga $5 USD/mes y tiene su propio menú y link.
+- **Restaurante / sucursal:** unidad que paga $8 USD/mes y tiene su propio menú y link.
 - **Dueño:** quien contrata y administra. **Empleado:** acceso limitado asignado por el dueño.
 - **Comensal:** cliente final que pide desde el link.
 - **Menú digital:** el menú público del restaurante, accesible por link o QR.

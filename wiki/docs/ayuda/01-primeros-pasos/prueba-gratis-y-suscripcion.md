@@ -4,7 +4,7 @@ titulo: Prueba gratis y suscripción
 audiencia: dueno
 categoria: primeros-pasos
 resumen: Cuánto cuesta, cómo funcionan los 14 días gratis y cómo activar la suscripción.
-palabras_clave: [precio, costo, suscripción, prueba gratis, 14 días, pagar, tarjeta, stripe, $5]
+palabras_clave: [precio, costo, suscripción, prueba gratis, 14 días, pagar, tarjeta, stripe, $8]
 ruta_app: /onboarding/billing
 actualizado: 2026-10-27
 relacionados: [plan-y-menus, menu-no-disponible, preguntas-frecuentes]
@@ -18,7 +18,7 @@ Para el **dueño**.
 - Una tarjeta de crédito o débito. El cobro lo procesa **Stripe**.
 
 ## Cuánto cuesta
-- **$5 USD al mes por restaurante (sucursal).**
+- **$8 USD al mes por restaurante (sucursal).**
 - **14 días de prueba gratis** en la primera alta.
 - **Sin comisión por pedido.** Tus clientes no pagan nada a Mesifly.
 

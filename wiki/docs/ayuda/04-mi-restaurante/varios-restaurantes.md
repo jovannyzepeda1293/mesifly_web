@@ -7,7 +7,7 @@ resumen: Registrar otra sucursal, cambiar entre restaurantes, y activarlos, desa
 palabras_clave: [sucursal, varios restaurantes, cambiar de restaurante, nuevo restaurante, desactivar, activar, eliminar restaurante, límite]
 ruta_app: /:slug/restaurants
 actualizado: 2026-10-27
-relacionados: [plan-y-menus, resumen-de-ventas, asistente-de-alta]
+relacionados: [mesifly-local, plan-y-menus, resumen-de-ventas, asistente-de-alta]
 ---
 # Cómo manejo varios restaurantes (sucursales)
 
@@ -15,7 +15,7 @@ relacionados: [plan-y-menus, resumen-de-ventas, asistente-de-alta]
 Para el **dueño**. Cada restaurante tiene su propio menú, enlace, empleados, horarios y Telegram, y cuenta como un menú de tu plan.
 
 ## Antes de empezar
-- Tener espacio en tu [plan](../07-cuenta-y-plan/plan-y-menus.md): cada menú cuesta $5 USD al mes.
+- Tener espacio en tu [plan](../07-cuenta-y-plan/plan-y-menus.md): cada menú cuesta $8 USD al mes.
 
 ## Pasos: registrar otro restaurante
 1. Entra a **Restaurantes** (barra de arriba) y pulsa **Registrar restaurante nuevo**.
